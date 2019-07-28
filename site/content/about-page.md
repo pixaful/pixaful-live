@@ -7,6 +7,7 @@ ogdescription = ""
 ogimage = ""
 ogtitle = ""
 ogurl = ""
+page_sections = []
 summary = ""
 title = "About"
 twittercreator = ""
@@ -17,14 +18,5 @@ twittertitle = ""
 twitterurl = ""
 [menu.mainmenu]
 weight = 2
-[[page_sections]]
-block = "two-column-1"
-template = "page-title"
-[page_sections.col_1]
-content = "content"
-headline = "Page Title"
-[page_sections.col_2]
-content = ""
-headline = ""
 
 +++
