@@ -82,5 +82,4 @@ fields:
   - page-title
 pages:
 - site/content/blog/page-builder.md
-- site/content/test.md
 - site/content/about-page.md
