@@ -81,6 +81,6 @@ fields:
   - 4-column-footer
   - page-title
 pages:
-- site/content/about-page.md
-- site/content/test.md
 - site/content/blog/page-builder.md
+- site/content/test.md
+- site/content/about-page.md
