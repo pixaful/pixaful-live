@@ -24,20 +24,20 @@ parent = "What I do"
 url = "#"
 weight = 1
 [[menu.mainmenu]]
-name = "What I do"
-url = "#"
-weight = 3
+identifyer = "home"
+name = "Home"
+url = "/"
+weight = 1
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
 name = "Blog"
 url = "/blog"
-weight = 2
+weight = 4
 [[menu.mainmenu]]
-identifyer = "home"
-name = "Home"
-url = "/"
-weight = 1
+name = "What I do"
+url = "#"
+weight = 3
 [params.tiles]
 enable = true
 [[params.tiles.showcase]]

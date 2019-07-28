@@ -16,7 +16,7 @@ twittersite = ""
 twittertitle = ""
 twitterurl = ""
 [menu.mainmenu]
-weight = 4
+weight = 2
 [[page_sections]]
 background_image = "/uploads/index.png"
 block = "hero-2"
