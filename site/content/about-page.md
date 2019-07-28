@@ -7,6 +7,7 @@ ogdescription = ""
 ogimage = ""
 ogtitle = ""
 ogurl = ""
+page_sections = []
 summary = ""
 title = "About"
 twittercreator = ""
@@ -17,16 +18,5 @@ twittertitle = ""
 twitterurl = ""
 [menu.mainmenu]
 weight = 2
-[[page_sections]]
-background_image = "/uploads/index.png"
-block = "hero-2"
-content = "Content"
-headline = "Headline"
-template = "hero-banner-w-image"
-[page_sections.cta]
-enabled = false
-[page_sections.image]
-alt_text = ""
-image = ""
 
 +++
