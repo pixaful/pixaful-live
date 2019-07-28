@@ -1,9 +1,75 @@
 {{ define "main" }}
+<main class="Site-content">
+          <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-2-5"><img alt="Hayden Tomas - Front-end website developer" src="/images/haydentomas.png"></div>
+                    <div class="pure-u-1 pure-u-md-3-5 intro">
+                          <h1>I create beautifully coded, fast loading, seo ready websites</h1>
+          <p>For over 8 years, I have been helping online business with their website needs, covering <a href="#">Online Marketing</a>, <a href="#">SEO</a>, <a href="#">Social Media</a>, <a href="#">Email Marketing</a>, <a href="#">Website Security</a> and of course <a href="#">Website Development</a>.</p>
+          <p>My websites load quickly because I care about code. Google loves them.</p>
+          <p>I am a Wordpress fanboy, I enjoy working with PHP, however I am very flexible.
+          <p>I have spent over 8 years working with DNN ,Magento, Wordpress and most recently Hugo.</p>
+          <p>I love learning new tech and spent much of my free time learning new code.</p>
+          <p>I have worked for a marketing agency for the past 8 years as the lead developer.</p>
+          <p><a class="btn mt-10" href="#">See my work</a></p>
+                    </div>
+               
+                </div>
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
+<!--         
+     <h3>This could be a couple of portfolio posts</h3>
+       {{ if .Site.Params.Tiles.enable }}
+          {{ partial "projects.html" . }}
+          {{ end }} -->
 
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
+          
+   
+     <!-- <div class="pure-g">
+          <div class="pure-u-1-3">
+               <p>Thirds</p>
+          </div>
+          <div class="pure-u-1-3">
+               <p>Thirds</p>
+          </div>
+          <div class="pure-u-1-3">
+               <p>Thirds</p>
+          </div>
+     </div> -->
+     <!-- <div class="page-blocks">
+          {{- range .Params.blocks -}}
+          {{- if eq .template "hero-section" -}}{{ partial "blocks/hero" (dict "Params" .) }}{{- end -}}
+          {{- if eq .template "media-feature" -}}{{ partial "blocks/media-feature" (dict "Params" .) }}{{- end -}}
+          {{- if eq .template "call-to-action" -}}{{ partial "blocks/cta" (dict "Params" .) }}{{- end -}}
+          {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
+          {{- end -}}
+     </div> -->
+      <h2 class="biggap">My blog is full of helpful articles for developers, covering everything I use in my daily web development workflow.</h2>
+      <div class="homeposts">
 
-<a href="{{ "/tech" | relURL }}">Check out the tech</a>
+          {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
+      {{ range .Paginator.Pages }}
+      
+      <!-- <div class="post">
+          <h2><a href="{{.URL}}">{{.Title}}</a></h2>
+           <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
+           <div style="color:grey; font-size:16px;">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+           <div style="color:grey; font-size:16px;">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+           <div style="color:grey; font-size:16px;">{{ if .Params.moods }}<strong>Moods:</strong> {{range .Params.moods}}<a href="{{ "/moods/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+{{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
+           <p style="font-size:18px;">{{.Summary}}</p>
+      </div> -->
+      <div class="post">
+          <div class="post-body">
+          <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2>
+          <div class="content">
+               <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
+               <h2><a href="{{.URL}}">{{.Title}}</a></h2>
+            {{.Summary}}
+             </div>
+          </div>
+     </div>
+ {{ end }}
+</div>
+     
+</main>
 
-{{ end }}
+ {{ end }}

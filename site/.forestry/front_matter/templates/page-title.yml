@@ -1,0 +1,18 @@
+---
+label: page-title
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: two-column-1
+- type: field_group
+  name: col_1
+  label: Column 1
+  fields:
+  - type: include
+    name: column
+    label: Column
+    template: text-column
+

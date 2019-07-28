@@ -1,5 +1,17 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-<article class="content">
-  <main>{{- .Content -}}</main>
-</article>
+
+  <main class="Site-content single">
+      <!-- <h1>{{ .Title }}</h1> -->
+  {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }}
+      {{.Content}}
+      {{- range .Params.page_sections -}}
+      {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
+      {{- end -}}
+    </main>
+
+
+
+
+
+
 {{ end }}

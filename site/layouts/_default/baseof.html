@@ -1,30 +1,58 @@
+
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <base href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
-  <title>{{ $.Site.Title }}</title>
-
-  {{ $stylesheet := .Site.Data.webpack.main }}
-  {{ with $stylesheet.css }}
-    <link href="{{ relURL . }}" rel="stylesheet">
-  {{ end }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      {{ if .IsHome -}}
+      <title>Conversion-Focused Website Development ¦¦ Pixaful</title>
+      <meta name="description" content="This is the home description"/>
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="home">
+      <meta name="twitter:creator" content="home">
+      <meta name="twitter:title" content="home">
+      <meta property="twitter:url" content="home" />
+      <meta name="twitter:description" content="home">
+      <meta name="twitter:image" content="home">
+      <meta property="og:title" content="home" />
+      <meta property="og:type" content="article" />
+      <meta property="og:description" content="home" />
+      <meta property="og:image" content="home" />
+      <meta property="og:url" content="home" />
+      <meta property="og:site_name" content="home" />{{- else -}}
+      <title>{{ if .Title }}{{ .Title }} {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+      <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="{{ .Params.twittersite }}">
+      <meta name="twitter:creator" content="{{ .Params.twittercreator }}">
+      <meta name="twitter:title" content="{{ .Params.twittertitle }}">
+      <meta property="twitter:url" content="{{ .Params.twitterurl }}" />
+      <meta name="twitter:description" content="{{ .Params.twitterdescription }}">
+      <meta name="twitter:image" content="{{ .Params.twitterimage }}">
+      <meta property="og:title" content="{{ .Params.ogtitle }}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:description" content="{{ .Params.ogdescription }}" />
+      <meta property="og:image" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Params.ogimage }}" />
+      <meta property="og:url" content="{{ .Params.ogurl }}" />
+      <meta property="og:site_name" content="{{ .Params.ogsitename }}" />{{- end }}{{ $stylesheet := .Site.Data.webpack.main }}
+  {{ with $stylesheet.css }}    <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
 </head>
-
-<body>
-
+<body class="Site">
   {{ block "header" . }}{{ partial "header" . }}{{end}}
-
   {{ block "main" . }}{{end}}
-
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-  {{ $script := .Site.Data.webpack.main }}
-  {{ with $script.js }}
-    <script src="{{ relURL . }}"></script>
-  {{ end }}
+<script src="/js/jquery.js" type="text/javascript"></script>
+<script src="/js/jquery.smartmenus.min.js" type="text/javascript"></script>
+  <script>
+  $(function() {
+  $('#main-menu').smartmenus();
+});
+  </script>
 </body>
-
 </html>
