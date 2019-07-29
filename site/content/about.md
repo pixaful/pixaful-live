@@ -1,7 +1,6 @@
 +++
 date = ""
 description = ""
-draft = true
 featured_image = ""
 layout = "blocks"
 ogdescription = ""
@@ -23,7 +22,7 @@ template = "2-column-text"
 content = "words"
 headline = "Who I am "
 [page_sections.col_2]
-content = ""
-headline = ""
+content = "words"
+headline = "What I do"
 
 +++
