@@ -15,6 +15,8 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
+[menu.mainmenu]
+weight = 4
 [[page_sections]]
 block = "two-column-1"
 template = "2-column-text"
