@@ -14,7 +14,7 @@ fields:
 - type: text
   name: twitterdescription
   label: twitterdescription
-- type: text
+- type: file
   name: twitterimage
   label: twitterimage
 - type: text
