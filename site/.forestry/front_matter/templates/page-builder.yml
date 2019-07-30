@@ -69,4 +69,5 @@ fields:
   - 4-column-footer
   - page-title
 pages:
+- site/content/testing.md
 - site/content/about-page.md
