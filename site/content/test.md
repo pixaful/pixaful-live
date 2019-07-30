@@ -15,7 +15,7 @@ twittertitle = ""
 block = "two-column-1"
 template = "2-column-text"
 [page_sections.col_1]
-content = "<p>a test to see if </p><p>i get errors in code</p>"
+content = "<h2>I can do my own headings</h2><p>a test to see if</p><p>i get errors in code</p>"
 headline = "this is"
 [page_sections.col_2]
 content = ""
