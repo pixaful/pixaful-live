@@ -40,5 +40,10 @@ headline = ""
 [page_sections.col_3]
 content = "<h2>I am column 3</h2><p>three columns</p>"
 headline = ""
+[[page_sections]]
+block = "cta-bar"
+content = "sign up for cool stuff"
+email_recipient = "hello@haydentomas.com"
+template = "signup-bar"
 
 +++
