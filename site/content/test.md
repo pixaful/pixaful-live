@@ -45,5 +45,10 @@ block = "cta-bar"
 content = "sign up for cool stuff"
 email_recipient = "hello@haydentomas.com"
 template = "signup-bar"
+[[page_sections]]
+block = "media-1"
+caption = "caption goes here"
+image = "/uploads/gift-guide-2@2x.jpg"
+template = "full-width-media-element"
 
 +++
