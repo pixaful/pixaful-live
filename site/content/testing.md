@@ -1,7 +1,6 @@
 +++
 date = ""
 description = ""
-draft = true
 featured_image = ""
 layout = "blocks"
 ogdescription = ""
@@ -19,7 +18,7 @@ template = "2-column-text"
 content = "<p>what do we do</p><p>about teh empty paragraphs</p>"
 headline = "testing"
 [page_sections.col_2]
-content = ""
-headline = ""
+content = "<p>i dunno</p><p>do you?</p>"
+headline = "who knows"
 
 +++
