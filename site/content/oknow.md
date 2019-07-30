@@ -1,7 +1,6 @@
 +++
 date = ""
 description = ""
-draft = true
 featured_image = ""
 layout = "blocks"
 ogdescription = ""
