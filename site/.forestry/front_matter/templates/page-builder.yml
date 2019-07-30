@@ -7,34 +7,22 @@ fields:
   label: title
 - type: text
   name: description
-  label: description
+  label: Description
 - type: datetime
   name: date
   label: date
 - type: text
-  name: twittersite
-  label: twittersite
-- type: text
-  name: twittercreator
-  label: twittercreator
-- type: text
   name: twittertitle
   label: twittertitle
 - type: text
-  name: twitterurl
-  label: twitterurl
-- type: text
   name: twitterdescription
   label: twitterdescription
-- type: text
+- type: file
   name: twitterimage
   label: twitterimage
 - type: text
   name: ogtitle
   label: ogtitle
-- type: text
-  name: ogurl
-  label: ogurl
 - type: text
   name: ogdescription
   label: ogdescription
