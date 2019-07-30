@@ -1,10 +1,6 @@
-<section class="block block-one-column-1">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <h3>{{ .Section.headline }}</h3>
-        <p>{{ safeHTML .Section.content }}</p>
-      </div>        
-    </div>
+<div class="pure-g">
+  <div class="pure-u-1">
+    {{ safeHTML .Section.content }}
   </div>
-</section>
+
+</div>
