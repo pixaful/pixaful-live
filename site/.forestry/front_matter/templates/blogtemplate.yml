@@ -35,7 +35,7 @@ fields:
 - type: text
   name: ogdescription
   label: ogdescription
-- type: text
+- type: file
   name: ogimage
   label: ogimage
 - name: featured_image
