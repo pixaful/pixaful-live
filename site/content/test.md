@@ -28,5 +28,17 @@ headline = "this is"
 [page_sections.col_2]
 content = "<h3>This shows a different header size</h3><p>I am column 2</p>"
 headline = "I am column 2"
+[[page_sections]]
+block = "three-column-1"
+template = "3-column-text"
+[page_sections.col_1]
+content = "<h2>I am column 3</h2><p>three columns</p>"
+headline = ""
+[page_sections.col_2]
+content = ""
+headline = ""
+[page_sections.col_3]
+content = ""
+headline = ""
 
 +++
