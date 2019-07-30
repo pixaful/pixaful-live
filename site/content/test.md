@@ -26,7 +26,7 @@ template = "2-column-text"
 content = "<h2>I can do my own headings</h2><p>a test to see if</p><p>i get errors in code</p>"
 headline = "this is"
 [page_sections.col_2]
-content = "<p>I am column 2</p>"
+content = "<h3>This shows a different header size</h3><p>I am column 2</p>"
 headline = "I am column 2"
 
 +++
