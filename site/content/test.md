@@ -35,7 +35,7 @@ template = "3-column-text"
 content = "<h2>I am column 3</h2><p>three columns</p>"
 headline = ""
 [page_sections.col_2]
-content = ""
+content = "<h2>I am column 3</h2><p>three columns</p>"
 headline = ""
 [page_sections.col_3]
 content = ""
