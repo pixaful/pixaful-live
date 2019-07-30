@@ -15,7 +15,7 @@ twittertitle = ""
 block = "two-column-1"
 template = "2-column-text"
 [page_sections.col_1]
-content = "<p>d</p><p>d</p>"
+content = "<p>d</p><h2>d</h2>"
 headline = "edline"
 [page_sections.col_2]
 content = ""
