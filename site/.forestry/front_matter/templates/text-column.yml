@@ -10,5 +10,6 @@ fields:
   label: Content
   config:
     wysiwyg: true
+    default: ""
     schema:
       format: html-blocks
