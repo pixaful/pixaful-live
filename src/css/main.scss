@@ -231,6 +231,10 @@ main {
 
 
     @media screen and (min-width: 64em) {
+      .uk-sticky-fixed {
+
+        background: #fff;
+    }
       header {
             min-height:10vh;
             padding:$contain;
