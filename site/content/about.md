@@ -1,7 +1,6 @@
 +++
 date = "2019-07-29T23:00:00+00:00"
 description = "about page description"
-draft = true
 featured_image = ""
 layout = "blocks"
 ogdescription = ""
