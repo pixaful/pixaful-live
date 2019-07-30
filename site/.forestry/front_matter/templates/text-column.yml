@@ -2,17 +2,6 @@
 label: text-column
 hide_body: false
 fields:
-type: select
-name: category
-label: Category
-description: Box Class
-hidden: false
-config:
-    source:
-      type: custom
-    options:
-        - "boxed"
-        - "material"
 - type: text
   name: headline
   label: Headline
@@ -24,3 +13,14 @@ config:
     default: ''
     schema:
       format: html-blocks
+- type: select
+    name: category
+    label: Category
+    description: Box Class
+    hidden: false
+  config:
+    source:
+      type: custom
+    options:
+        - "boxed"
+        - "material"
