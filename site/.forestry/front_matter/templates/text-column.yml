@@ -9,6 +9,7 @@ fields:
   name: content
   label: Content
   config:
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
+  default: "<p></p>"
