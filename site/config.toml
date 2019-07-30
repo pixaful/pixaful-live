@@ -49,8 +49,7 @@ url = "blogs/aliquam"
 image = "pic02.jpg"
 subtitle = "Feugiat Amet Tempus"
 title = "Tempus"
-url = "blogs/tempus"
-
 uglyurls = true
+url = "blogs/tempus"
 [permalinks]
-  post = ":filename"
+post = ":filename"

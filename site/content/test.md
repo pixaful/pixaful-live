@@ -11,6 +11,9 @@ title = "test"
 twitterdescription = ""
 twitterimage = ""
 twittertitle = ""
+[menu.mainmenu]
+name = "Test Links"
+weight = 4
 [[page_sections]]
 block = "two-column-1"
 template = "2-column-text"
