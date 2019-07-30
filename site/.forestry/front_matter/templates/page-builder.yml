@@ -68,5 +68,3 @@ fields:
   - simple-footer
   - 4-column-footer
   - page-title
-pages:
-- site/content/about.md
