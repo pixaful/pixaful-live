@@ -1,6 +1,7 @@
 +++
 date = ""
 description = "about page"
+draft = true
 featured_image = ""
 layout = "blocks"
 ogdescription = ""
