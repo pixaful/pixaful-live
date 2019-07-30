@@ -32,7 +32,7 @@
       <meta name="twitter:site" content="{{ .Params.twittersite }}">
       <meta name="twitter:creator" content="{{ .Params.twittercreator }}">
       <meta name="twitter:title" content="{{ .Params.twittertitle }}">
-      <meta property="twitter:url" content="{{ .Permalink | absURL }}" />
+      <meta property="twitter:url" content="{{ $.Site.BaseURL }}{{ .Permalink | absURL }}" />
       <meta name="twitter:description" content="{{ .Params.twitterdescription }}">
       <meta name="twitter:image" content="{{ .Params.twitterimage }}">
       <meta property="og:title" content="{{ .Params.ogtitle }}" />
