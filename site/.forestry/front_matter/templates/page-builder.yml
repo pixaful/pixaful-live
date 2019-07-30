@@ -81,5 +81,5 @@ fields:
   - 4-column-footer
   - page-title
 pages:
+- site/content/about.md
 - site/content/blog/page-builder.md
-- site/content/about-page.md

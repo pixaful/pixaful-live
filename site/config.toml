@@ -33,11 +33,11 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
 name = "Blog"
 url = "/blog"
-weight = 4
+weight = 3
 [[menu.mainmenu]]
 name = "What I do"
 url = "#"
-weight = 3
+weight = 2
 [params.tiles]
 enable = true
 [[params.tiles.showcase]]
