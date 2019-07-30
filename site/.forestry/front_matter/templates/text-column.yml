@@ -2,6 +2,19 @@
 label: text-column
 hide_body: false
 fields:
+type: select
+name: category
+label: Category
+description: Box Class
+hidden: false
+config:
+    source:
+      type: custom
+    options:
+        - "boxed"
+        - "material"
+
+Document Reference Sour
 - type: text
   name: headline
   label: Headline
