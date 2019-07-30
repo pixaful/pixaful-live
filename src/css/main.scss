@@ -227,12 +227,15 @@ main {
   }
   }
   }
-
+  .sticky-fixed {
+    background: #fff;
+    position:relative;
+}
 
 
     @media screen and (min-width: 64em) {
       .uk-sticky-fixed {
-
+        position:fixed;
         background: #fff;
     }
       header {
