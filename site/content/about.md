@@ -33,7 +33,7 @@ template = "2-column-text"
 content = "My name is Hayden Tomas\nwhat happens here\n\nis that a break?"
 headline = "Who I am "
 [page_sections.col_2]
-content = "words"
+content = "<p>words</p><p>all words</p><p>blah blah</p><p>blah</p>"
 headline = "What I do"
 
 +++
