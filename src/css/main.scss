@@ -240,24 +240,10 @@ main {
       .uk-sticky-fixed {
         position:fixed;
         background: #fff;
-        transition-timing-function: ease-in;
-        transition: 0.4s;
+  
     }
-    .uk-sticky-fixed .logo, .uk-sticky-fixed .nav {
-      background: #fff;
-      transition-timing-function: ease-in;
-      transition: 0.4s;
-    }
-    .uk-sticky-fixed.uk-active {
-      transition-timing-function: ease-out;
-      transition: 2s;
-    }
-
-    .uk-sticky-fixed.uk-active .logo, .uk-sticky-fixed.uk-active .nav {
-      background: #fff;
-      transition-timing-function: ease-in;
-      transition: 0.4s;
-    }
+   
+    
 
       header {
             min-height:10vh;
