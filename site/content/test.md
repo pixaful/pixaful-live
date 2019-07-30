@@ -15,6 +15,11 @@ twittertitle = ""
 name = "Test Links"
 weight = 4
 [[page_sections]]
+block = "one-column-1"
+content = "<p>I am one column</p><p>check me for paragraphs</p>"
+headline = "I am 1 column"
+template = "1-column-text"
+[[page_sections]]
 block = "two-column-1"
 template = "2-column-text"
 [page_sections.col_1]
