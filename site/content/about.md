@@ -1,6 +1,6 @@
 +++
 date = ""
-description = ""
+description = "Description goes here for meta"
 featured_image = ""
 layout = "blocks"
 ogdescription = ""
