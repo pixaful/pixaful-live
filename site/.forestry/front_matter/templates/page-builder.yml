@@ -68,6 +68,3 @@ fields:
   - simple-footer
   - 4-column-footer
   - page-title
-pages:
-- site/content/oknow.md
-- site/content/testing.md
