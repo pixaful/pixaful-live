@@ -9,12 +9,6 @@ fields:
   name: date
   label: date
 - type: text
-  name: twittersite
-  label: twittersite
-- type: text
-  name: twittercreator
-  label: twittercreator
-- type: text
   name: twittertitle
   label: twittertitle
 - type: text

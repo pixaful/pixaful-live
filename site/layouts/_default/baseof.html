@@ -29,8 +29,8 @@
       <title>{{ if .Title }}{{ .Title }} {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
       <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
       <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:site" content="{{ .Params.twittersite }}">
-      <meta name="twitter:creator" content="{{ .Params.twittercreator }}">
+      <meta name="twitter:site" content="@pixaful">
+      <meta name="twitter:creator" content="@pixaful">
       <meta name="twitter:title" content="{{ .Params.twittertitle }}">
       <meta property="twitter:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink | absURL }}" />
       <meta name="twitter:description" content="{{ .Params.twitterdescription }}">
