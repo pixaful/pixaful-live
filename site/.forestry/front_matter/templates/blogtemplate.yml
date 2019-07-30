@@ -12,9 +12,6 @@ fields:
   name: twittertitle
   label: twittertitle
 - type: text
-  name: twitterurl
-  label: twitterurl
-- type: text
   name: twitterdescription
   label: twitterdescription
 - type: text
@@ -23,9 +20,6 @@ fields:
 - type: text
   name: ogtitle
   label: ogtitle
-- type: text
-  name: ogurl
-  label: ogurl
 - type: text
   name: ogdescription
   label: ogdescription
