@@ -13,8 +13,6 @@ config:
     options:
         - "boxed"
         - "material"
-
-Document Reference Sour
 - type: text
   name: headline
   label: Headline
