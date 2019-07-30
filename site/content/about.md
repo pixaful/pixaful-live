@@ -18,6 +18,15 @@ twitterurl = ""
 [menu.mainmenu]
 weight = 4
 [[page_sections]]
+block = "feature-1"
+content = "content"
+headline = "headline"
+media_alignment = "Right"
+template = "content-feature"
+[page_sections.media]
+alt_text = ""
+image = "/uploads/index.png"
+[[page_sections]]
 block = "two-column-1"
 template = "2-column-text"
 [page_sections.col_1]
