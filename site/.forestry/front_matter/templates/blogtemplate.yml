@@ -44,4 +44,4 @@ fields:
       format: markdown
   label: summary
 pages:
-- site/content/blog/title.md
+- site/content/blog/what-s-up-with-static-site-generators.md

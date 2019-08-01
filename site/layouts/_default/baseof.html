@@ -47,6 +47,7 @@
 </head>
 <body class="Site">
   {{ block "header" . }}{{ partial "header" . }}{{end}}
+  <a id="button"></a>
   {{ block "main" . }}{{end}}
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
@@ -57,6 +58,23 @@
   $(function() {
   $('#main-menu').smartmenus();
 });
+  </script>
+  <script>
+    var btn = $('#button');
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+
+      btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+      });
+
   </script>
 </body>
 </html>

@@ -116,7 +116,8 @@
 
   /* ...end */
   .sm-simple {
-    background: #fff;
+    background: transparent;
+    border:none;
   }
   .sm-simple a, .sm-simple a:hover, .sm-simple a:focus, .sm-simple a:active, .sm-simple a.highlighted {
     padding: 11px 20px;
