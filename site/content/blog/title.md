@@ -14,4 +14,8 @@ twittertitle = "What's up with static site generators?"
 +++
 So we are in the process of moving our portfolio website to Hugo. Having seen what Smashing Magazine achieved, we wanted a piece of that. Plus it gives us the chance to brush up on our development skills.
 
-Whilst I love Wordpress, I do find myself being propped up by the likes of Elementor and Beaver Builder.  They have their use cases, especially for clients on a budget that need websites built quickly. Thei is of course a comprise between design and code. The output of a pagebuidler a garbage, no matter which one you use.
+Whilst we love Wordpress, we do find myself being propped up by the likes of Elementor and Beaver Builder.  They have their use cases, especially for clients on a budget that need websites built quickly. There is of course a comprise between design and code. The output of a pagebuilder a garbage, no matter which one you use and over time you will find that the site will slow down.
+
+Then of course you need plugins to combat the speed. 
+
+With a static site generator, you don't have to worry about any of that. You get out what you put in. No extra divs, spaces, code that does not need to load. **It's beautiful!**
