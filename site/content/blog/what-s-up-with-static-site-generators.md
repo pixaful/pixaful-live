@@ -32,4 +32,4 @@ We are using the following for development:
 
 We could have used gulp for minify and concat, or even hugo pipes but we are still learning!
 
-We are using forestry.io to manage content, and have even working out how to create our own page builder using something called [forestry blocks](https://forestry.io/docs/settings/fields/blocks/ "forestry blocks")
+We are using forestry.io to manage content, and have even working out how to create our own page builder using something called <a href="[https://forestry.io/docs/settings/fields/blocks/](https://forestry.io/docs/settings/fields/blocks/ "https://forestry.io/docs/settings/fields/blocks/")" target="_blank">Forestry Blocks</a>
