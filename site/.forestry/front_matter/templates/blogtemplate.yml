@@ -44,4 +44,5 @@ fields:
       format: markdown
   label: summary
 pages:
+- site/content/blog/build-a-hugo-website.md
 - site/content/blog/what-s-up-with-static-site-generators.md
