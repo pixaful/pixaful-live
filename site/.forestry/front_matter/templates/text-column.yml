@@ -13,14 +13,3 @@ fields:
     default: ''
     schema:
       format: html-blocks
-- type: select
-    name: category
-    label: Category
-    description: Box Class
-    hidden: false
-  config:
-    source:
-      type: custom
-    options:
-        - "boxed"
-        - "material"
