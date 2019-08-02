@@ -29,6 +29,7 @@
           <button class="uk-modal-close-default" type="button" uk-close></button>
 
 <form name="contact" method="POST" data-netlify="true">
+     <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
           <fieldset class="uk-fieldset">
      
                <legend class="uk-legend">Contact Pixaful</legend>
@@ -62,11 +63,11 @@
 
      
                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                    <label><input class="uk-checkbox" type="checkbox">  I agree to email communications from Hayden Tomas (you will not be able to send this form unless you agree)</label>
+                    <label><input class="uk-checkbox" type="checkbox">  I agree to email communications from Hayden Tomas</label>
                </div>
      
                <div class="uk-margin">
-                    <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                    <button class="uk-button uk-button-default" type="submit">Send</button>
                </div>
      
           </fieldset>
