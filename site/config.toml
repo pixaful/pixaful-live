@@ -53,3 +53,4 @@ uglyurls = true
 url = "blogs/tempus"
 [permalinks]
 post = ":filename"
+disableHugoGeneratorInject = true
