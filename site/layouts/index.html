@@ -27,8 +27,8 @@
      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
 
           <button class="uk-modal-close-default" type="button" uk-close></button>
-
-{{/*  <form name="contact" method="POST" action="/#contact" data-netlify="true">
+<div id="contact">
+<form name="contact" method="POST" action="/#contact" data-netlify="true">
      <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
           <fieldset class="uk-fieldset">
      
@@ -71,31 +71,41 @@
                </div>
      
           </fieldset>
-     </form>  */}}
+     </form>
+</div>
+<script>
+     // jQuery Version
+     // $("#my-form").submit(function(e) {
+     //   e.preventDefault();
+     //   var $form = $(this);
+     //   $.post($form.attr("action"), $form.serialize()).then(function() {
+     //     alert("Thank you!");
+     //   });
+     // });
+     let testForm = document.querySelector("#contact form");
 
-<div id="form-messages"></div>
+     testForm.addEventListener('submit', e => {
+          e.preventDefault();
+          const formData = new FormData(testForm);
+          fetch(testForm.getAttribute('action'), {
+               method: 'POST',
+               headers: {
+                    'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+               },
+               body: new URLSearchParams(formData).toString()
+          })
+               .then(res => {
+                    if (res) {
+                         M.toast({
+                              html: 'Thank you for your submission!',
+                              classes: 'pulse'
+                         });
+                    }
+               });
+     });
 
-<form id="my_form" method="post" data-netlify="true">
-          <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
-     <div class="field">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-     </div>
-
-     <div class="field">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-     </div>
-
-     <div class="field">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
-     </div>
-
-     <div class="field">
-          <button type="submit">Send</button>
-     </div>
-</form>
+</script>
 
      </div>
 </div>
