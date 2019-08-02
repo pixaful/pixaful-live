@@ -8,9 +8,6 @@
                   elva-fairy-800w.jpg 800w" sizes="(min-width: 320px) 280px,(min-width: 480px) 440px,800px"
           src="/images/hayden-tomas-large.png" alt="Hayden Tomas - Front-end website developer" uk-img>
 </div>
-
-
-
                     </div>
                     <div class="pure-u-1 pure-u-md-3-5 intro">
                           <h1>Hayden Tomas Website Developer</h1>
@@ -18,11 +15,6 @@
          <p>I am ready to help your local business grow online. I am based in High Wycombe and prefer to work with local businesses, tradespersons and startups looking to expand their local reach.</p>
          <p><strong>Are you ready to take your local business online?</strong></p>
           <p><a class="btn mt-10" href="#getintouch" uk-toggle>get in touch</a></p>
-
-     
-  
-     
-     <!-- This is the modal -->
 <div id="getintouch" class="uk-flex-top" uk-modal>
      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
 
@@ -31,9 +23,7 @@
 <form name="contact" action="POST" data-netlify="true">
      <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
           <fieldset class="uk-fieldset">
-     
                <legend class="uk-legend">Contact Pixaful</legend>
-     
                <div class="uk-margin">
                     <input class="uk-input" type="text" name="name" placeholder="Full Name" required>
                </div>
@@ -56,48 +46,69 @@
                          </button>
                     </div>
                </div>
-     
                <div class="uk-margin">
                     <textarea class="uk-textarea" name="message" rows="5" placeholder="Enter your message here"></textarea>
                </div>
-
-     
                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                     <label><input class="uk-checkbox" name="checked" type="checkbox" required>  I agree to email communications from Hayden Tomas</label>
                </div>
-    
                <div class="uk-margin">
                     <button class="uk-button uk-button-default" type="submit">Send</button>
                </div>
-     
           </fieldset>
      </form>
 </div>
-
-
      </div>
 </div>
-
                     </div>
-               
                 </div>
-
+                <div class="pure-g">
+                    <div class="pure-u-1-3">
+                  <div class="grid">
+                    <figure class="effect-oscar">
+                         <img src="/images/web-development.jpg" alt="website development services High Wycombe"/>
+                         <figcaption>
+                              <h2>Website Development</h2>
+                              <p>A hassle free web development service for local businesses, start-ups and entrepreneurs.</p>
+                              <a href="#">View more</a>
+                         </figcaption>			
+                    </figure>
+                  </div>
+                    </div>
+                    <div class="pure-u-1-3">
+                      <div class="grid">
+                         <figure class="effect-oscar">
+						<img src="https://tympanus.net/Development/HoverEffectIdeas/img/10.jpg" alt="img10"/>
+						<figcaption>
+							<h2>Website <span>Maintenance</span></h2>
+							<p>A complete website maintenancer service which covers updates, security and backups.</p>
+                              <a href="#">View more</a>
+						</figcaption>			
+					</figure>
+                      </div>
+                    </div>
+                    <div class="pure-u-1-3">
+                <div class="grid">
+                    <figure class="effect-oscar">
+                         <img src="https://tympanus.net/Development/HoverEffectIdeas/img/10.jpg" alt="img10"/>
+                         <figcaption>
+                              <h2>Search Engine <span>Optimisation</span></h2>
+                              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+                              <a href="#">View more</a>
+                         </figcaption>			
+                    </figure>
+                </div>
+                    </div>
+               </div>
 <!--         
-
-
 sm 	@media screen and (min-width: 35.5em) 	≥ 568px 	.pure-u-sm-*
 md 	@media screen and (min-width: 48em) 	≥ 768px 	.pure-u-md-*
 lg 	@media screen and (min-width: 64em) 	≥ 1024px 	.pure-u-lg-*
 xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
-
-
      <h3>This could be a couple of portfolio posts</h3>
        {{ if .Site.Params.Tiles.enable }}
           {{ partial "projects.html" . }}
           {{ end }} -->
-
-          
-   
      <!-- <div class="pure-g">
           <div class="pure-u-1-3">
                <p>Thirds</p>
@@ -119,10 +130,8 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
      </div> -->
       <h2 class="biggap">My blog is full of helpful articles for developers, covering everything I use in my daily web development workflow.</h2>
       <div class="homeposts">
-
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
       {{ range .Paginator.Pages }}
-      
       <!-- <div class="post">
           <h2><a href="{{.URL}}">{{.Title}}</a></h2>
            <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
@@ -144,7 +153,5 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
      </div>
  {{ end }}
 </div>
-     
 </main>
-
  {{ end }}
