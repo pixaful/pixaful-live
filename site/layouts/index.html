@@ -17,7 +17,64 @@
           <p class="lead">For over 8 years, I have been helping local businesses with their website needs, covering <a href="#">Website Development</a>, <a href="#">SEO</a>, <a href="#">Website Security</a>, <a href="#">E-commerce</a> and <a href="#">Website Maintenance</a></p>
          <p>I am ready to help your local business grow online. I am based in High Wycombe and prefer to work with local businesses, tradespersons and startups looking to expand their local reach.</p>
          <p><strong>Are you ready to take your local business online?</strong></p>
-          <p><a class="btn mt-10" href="#">get in touch</a></p>
+          <p><a class="btn mt-10" href="#getintouch" uk-toggle>get in touch</a></p>
+
+     
+  
+     
+     <!-- This is the modal -->
+<div id="getintouch" class="uk-flex-top" uk-modal>
+     <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+          <button class="uk-modal-close-default" type="button" uk-close></button>
+
+     <form>
+          <fieldset class="uk-fieldset">
+     
+               <legend class="uk-legend">Contact Pixaful</legend>
+     
+               <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Full Name">
+               </div>
+               <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Email Address">
+               </div>
+               <div class="uk-margin">
+                    <div uk-form-custom="target: > * > span:first-child">
+                         <select>
+                              <option value="">I need help with...</option>
+                              <option value="1">A new website for my local business</option>
+                              <option value="2">A website redesign for my existing business</option>
+                              <option value="2">SEO, I need to be found in Google</option>
+                              <option value="3">Help! My website has been hacked!</option>
+                              <option value="4">Something else</option>
+                         </select>
+                         <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                              <span></span>
+                              <span uk-icon="icon: chevron-down"></span>
+                         </button>
+                    </div>
+               </div>
+     
+               <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" placeholder="Enter your message here"></textarea>
+               </div>
+
+     
+               <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                    <label><input class="uk-checkbox" type="checkbox">  I agree to email communications from Hayden Tomas (you will not be able to send this form unless you agree)</label>
+               </div>
+     
+               <div class="uk-margin">
+                    <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+               </div>
+     
+          </fieldset>
+     </form>
+
+     </div>
+</div>
+
                     </div>
                
                 </div>
