@@ -35,20 +35,20 @@
                <legend class="uk-legend">Contact Pixaful</legend>
      
                <div class="uk-margin">
-                    <input class="uk-input" type="text" placeholder="Full Name" required>
+                    <input class="uk-input" type="text" name="name" placeholder="Full Name" required>
                </div>
                <div class="uk-margin">
-                    <input class="uk-input" type="text" placeholder="Email Address" required>
+                    <input class="uk-input" type="text" name="email" placeholder="Email Address" required>
                </div>
                <div class="uk-margin">
                     <div uk-form-custom="target: > * > span:first-child">
                          <select>
-                              <option value="">I need help with...</option>
-                              <option value="1">A new website for my local business</option>
-                              <option value="2">A website redesign for my existing business</option>
-                              <option value="2">SEO, I need to be found in Google</option>
-                              <option value="3">Help! My website has been hacked!</option>
-                              <option value="4">Something else</option>
+                              <option name="i need help with" value="">I need help with...</option>
+                              <option name="A new website for my local business" value="1">A new website for my local business</option>
+                              <option name="A website redesign for my existing business" value="2">A website redesign for my existing business</option>
+                              <option name="A website redesign for my existing business" value="2">SEO, I need to be found in Google</option>
+                              <option name="Help! My website has been hacked!" value="3">Help! My website has been hacked!</option>
+                              <option name="Something else" value="4">Something else</option>
                          </select>
                          <button class="uk-button uk-button-default" type="button" tabindex="-1">
                               <span></span>
@@ -58,12 +58,12 @@
                </div>
      
                <div class="uk-margin">
-                    <textarea class="uk-textarea" rows="5" placeholder="Enter your message here"></textarea>
+                    <textarea class="uk-textarea" name="message" rows="5" placeholder="Enter your message here"></textarea>
                </div>
 
      
                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                    <label><input class="uk-checkbox" type="checkbox" required>  I agree to email communications from Hayden Tomas</label>
+                    <label><input class="uk-checkbox" name="checked" type="checkbox" required>  I agree to email communications from Hayden Tomas</label>
                </div>
      
                <div class="uk-margin">
