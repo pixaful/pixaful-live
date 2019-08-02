@@ -28,7 +28,7 @@
 
           <button class="uk-modal-close-default" type="button" uk-close></button>
 <div id="contact">
-<form name="contact" method="POST" action="/#contact" data-netlify="true">
+<form name="contact" action="POST" data-netlify="true">
      <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
           <fieldset class="uk-fieldset">
      
@@ -65,7 +65,9 @@
                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                     <label><input class="uk-checkbox" name="checked" type="checkbox" required>  I agree to email communications from Hayden Tomas</label>
                </div>
-     
+     <div class="uk-margin">
+          <div data-netlify-recaptcha="true"></div>
+     </div>
                <div class="uk-margin">
                     <button class="uk-button uk-button-default" type="submit">Send</button>
                </div>
