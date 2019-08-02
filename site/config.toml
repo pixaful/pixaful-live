@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
+disableHugoGeneratorInject = true
 paginate = 3
 title = "¦¦ Pixaful"
 [[menu.mainmenu]]
@@ -53,4 +54,4 @@ uglyurls = true
 url = "blogs/tempus"
 [permalinks]
 post = ":filename"
-disableHugoGeneratorInject = true
+
