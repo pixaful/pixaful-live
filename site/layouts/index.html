@@ -28,50 +28,22 @@
 
           <button class="uk-modal-close-default" type="button" uk-close></button>
 
-<form name="contact" method="POST" action="/#contact" data-netlify="true">
-     <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
-          <fieldset class="uk-fieldset">
-     
-               <legend class="uk-legend">Contact Pixaful</legend>
-     
-               <div class="uk-margin">
-                    <input class="uk-input" type="text" name="name" placeholder="Full Name" required>
-               </div>
-               <div class="uk-margin">
-                    <input class="uk-input" type="text" name="email" placeholder="Email Address" required>
-               </div>
-               <div class="uk-margin">
-                    <div uk-form-custom="target: > * > span:first-child">
-                         <select name="role[]">
-                              <option value="i need help with">I need help with...</option>
-                              <option value="A new website for my local business">A new website for my local business</option>
-                              <option value="A website redesign for my existing business">A website redesign for my existing business</option>
-                              <option value="SEO, I need to be found in Google">SEO, I need to be found in Google</option>
-                              <option value="Help! My website has been hacked!">Help! My website has been hacked!</option>
-                              <option value="Something else">Something else</option>
-                         </select>
-                         <button class="uk-button uk-button-default" type="button" tabindex="-1">
-                              <span></span>
-                              <span uk-icon="icon: chevron-down"></span>
-                         </button>
-                    </div>
-               </div>
-     
-               <div class="uk-margin">
-                    <textarea class="uk-textarea" name="message" rows="5" placeholder="Enter your message here"></textarea>
-               </div>
-
-     
-               <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                    <label><input class="uk-checkbox" name="checked" type="checkbox" required>  I agree to email communications from Hayden Tomas</label>
-               </div>
-     
-               <div class="uk-margin">
-                    <button class="uk-button uk-button-default" type="submit">Send</button>
-               </div>
-     
-          </fieldset>
-     </form>
+<div id="contact">
+     <div class="container">
+          <h3>Reach Out to Me!</h3>
+          <form name="contact" method="POST" action="/#contact" data-netlify="true">
+               <p>
+                    <label>Your Name: <input type="text" name="name" /></label>
+               </p>
+               <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+               </p>
+               <label>Message: <textarea name="message"></textarea></label>
+               </p>
+               <p><button type="submit">Send</button></p>
+          </form>
+     </div>
+</div>
 
      </div>
 </div>
