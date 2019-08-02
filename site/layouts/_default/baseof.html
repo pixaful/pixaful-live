@@ -81,36 +81,57 @@
 
 
   <script>
-    // jQuery Version
-    // $("#my-form").submit(function(e) {
-    //   e.preventDefault();
-    //   var $form = $(this);
-    //   $.post($form.attr("action"), $form.serialize()).then(function() {
-    //     alert("Thank you!");
-    //   });
-    // });
-    let testForm = document.querySelector("#getintouch form");
+  $(function () {
 
-    testForm.addEventListener('submit', e => {
+    // Get the form.
+    var form = $('#ajax-contact');
+
+    // Get the messages div.
+    var formMessages = $('#form-messages');
+
+    // Set up an event listener for the contact form.
+    $(form).submit(function (e) {
+      // Stop the browser from submitting the form.
       e.preventDefault();
-      const formData = new FormData(testForm);
-      fetch(testForm.getAttribute('action'), {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-        },
-        body: new URLSearchParams(formData).toString()
+
+      // Serialize the form data.
+      var formData = $(form).serialize();
+
+      // Submit the form using AJAX.
+      $.ajax({
+        type: 'POST',
+        url: $(form).attr('action'),
+        data: formData
       })
-        .then(res => {
-          if (res) {
-            M.toast({
-              html: 'Thank you for your submission!',
-              classes: 'pulse'
-            });
+        .done(function (response) {
+          // Make sure that the formMessages div has the 'success' class.
+          $(formMessages).removeClass('error');
+          $(formMessages).addClass('success');
+
+          // Set the message text.
+          $(formMessages).text(response);
+
+          // Clear the form.
+          $('#name').val('');
+          $('#email').val('');
+          $('#message').val('');
+        })
+        .fail(function (data) {
+          // Make sure that the formMessages div has the 'error' class.
+          $(formMessages).removeClass('success');
+          $(formMessages).addClass('error');
+
+          // Set the message text.
+          if (data.responseText !== '') {
+            $(formMessages).text(data.responseText);
+          } else {
+            $(formMessages).text('Oops! An error occured and your message could not be sent.');
           }
         });
+
     });
+
+  });
 
   </script>
 </body>
