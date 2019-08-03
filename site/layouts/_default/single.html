@@ -1,23 +1,13 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 
-<div class="pure-g">
-
-
-
-    <div class="pure-u-17-24"><p>Thirds</p></div>
-    <div class="pure-u-7-24"><p>Thirds</p></div>
-
-
-
-    <main class="Site-content">
-        {{ if eq .Section "blog" }}
-              <h1>{{ .Title }}</h1>
-              {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }}
-              {{.Content}}
-        {{ end }}
-              {{- range .Params.page_sections -}}
-              {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
-              {{- end -}}
-            </main>
-</div>
+  <main class="Site-content">
+{{ if eq .Section "blog" }}
+      <h1>{{ .Title }}</h1>
+      {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }}
+      {{.Content}}
+{{ end }}
+      {{- range .Params.page_sections -}}
+      {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
+      {{- end -}}
+    </main>
 {{ end }}
