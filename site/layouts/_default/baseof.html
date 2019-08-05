@@ -92,16 +92,13 @@
 <script>
 $(document).ready(function(){
   $("#tipue_search_input").click(function(){
-     $("#myDIV").addClass("hideme");
+    $("div.inner2").replaceWith("<div id="tipue_search_content"></div>");
   });
   $("#show").click(function(){
     $("p").show();
   });
 });
 </script>
-<style>
-  .hideme {
-  display:none !important;}
-</style>
+
 </body>
 </html>
