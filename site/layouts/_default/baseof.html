@@ -90,15 +90,18 @@
   });
 </script>
 <script>
-  $(document).ready(function () {
-    $("#hide").click(function () {
-      $("#myDIV").hide();
-    });
-    $("#show").click(function () {
-      $("p").show();
-    });
+$(document).ready(function(){
+  $("#tipue_search_input").click(function(){
+     $("#myDIV").addClass("hideme");
   });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
 </script>
-
+<style>
+  .hideme {
+  display:none !important;}
+</style>
 </body>
 </html>

@@ -5,12 +5,12 @@
         <div class="pure-u-1 pure-u-md-17-24">
 <div id="tipue_search_content"></div>
             {{ if eq .Section "blog" }}
-        <div id="myDiv">
+        <div id="myDIV">
               <h1>{{ .Title }}</h1>
             {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }}
             {{.Content}}
         </div>
-        
+
       {{ end }}
             {{- range .Params.page_sections -}}
             {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
