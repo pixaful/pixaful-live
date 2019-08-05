@@ -1,5 +1,4 @@
 baseurl = "/"
-disableHugoGeneratorInject = true
 languageCode = "en-us"
 languageLang = "en"
 paginate = 3
