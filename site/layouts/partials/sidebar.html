@@ -1,1 +1,8 @@
-<h2>i am a sidebar</h2>
+<h2>Recent Posts</h2>
+<ul>
+  {{ range first 5 .Site.Pages }}
+  {{if eq .Type "post" }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>, {{ .Date.Format "02 Jan, 2006" }}</li>
+  {{ end }}
+  {{ end }}
+</ul>
