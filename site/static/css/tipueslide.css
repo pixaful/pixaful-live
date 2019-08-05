@@ -22,34 +22,22 @@ http://www.tipue.com/slide
      display: none;
      position: fixed;
      top: 0;
-<<<<<<< HEAD
-     left 0;
-     width: 100%;
-     height: 100%;
-     z-index: 400;
-=======
      right: 0;
      width: 100%;
      height: 100%;
      z-index: 400;
-     float:right;
->>>>>>> master
 }
 #tipue-slide
 {
      position: fixed;
      box-sizing: border-box;
      top: 0;
-     left: -375px;
+     right: -375px;
      width: 375px;
      height: 100%;
      background-color: #131313;
-     z-index: 500;
+     z-index: 9900;
      overflow-y: auto;
-<<<<<<< HEAD
-=======
-     float:right;
->>>>>>> master
 }
 .tipue-slide-wrap
 {

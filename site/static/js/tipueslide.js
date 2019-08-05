@@ -17,6 +17,7 @@ http://www.tipue.com/slide
                'newTab'                 : false,               
                'show'                   : 4,
                'speed'                  : 300
+           
           
           }, options);
 
@@ -95,13 +96,13 @@ http://www.tipue.com/slide
                     if (slide.hasClass('open'))
                     {
                          $('.tipue-slide-screen').show();
-                         slide.animate({left: '0'}, 200);
+                         slide.animate({right: '0'}, 200);
                          $('.tipue-slide-wrap').fadeIn(700);    
                     }
                     else
                     {
                          $('.tipue-slide-screen').hide();
-                         slide.animate({left: -slideWidth-1}, 200);
+                         slide.animate({right: -slideWidth-1}, 200);
                     }
                });
                
