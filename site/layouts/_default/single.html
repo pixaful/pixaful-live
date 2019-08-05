@@ -10,6 +10,7 @@
             {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }}
             {{.Content}}
         </div>
+        
       {{ end }}
             {{- range .Params.page_sections -}}
             {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
