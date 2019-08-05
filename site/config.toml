@@ -1,7 +1,7 @@
 baseurl = "/"
+disableHugoGeneratorInject = true
 languageCode = "en-us"
 languageLang = "en"
-disableHugoGeneratorInject = true
 paginate = 3
 title = "¦¦ Pixaful"
 [[menu.mainmenu]]
@@ -25,10 +25,9 @@ parent = "What I do"
 url = "#"
 weight = 1
 [[menu.mainmenu]]
-identifyer = "home"
-name = "Home"
-url = "/"
-weight = 1
+name = "What I do"
+url = "#"
+weight = 2
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
@@ -36,9 +35,10 @@ name = "Blog"
 url = "/blog"
 weight = 3
 [[menu.mainmenu]]
-name = "What I do"
-url = "#"
-weight = 2
+identifyer = "home"
+name = "Home"
+url = "/"
+weight = 1
 [params.tiles]
 enable = true
 [[params.tiles.showcase]]
@@ -54,4 +54,3 @@ uglyurls = true
 url = "blogs/tempus"
 [permalinks]
 post = ":filename"
-
