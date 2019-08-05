@@ -22,10 +22,18 @@ http://www.tipue.com/slide
      display: none;
      position: fixed;
      top: 0;
+<<<<<<< HEAD
      left 0;
      width: 100%;
      height: 100%;
      z-index: 400;
+=======
+     right: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 400;
+     float:right;
+>>>>>>> master
 }
 #tipue-slide
 {
@@ -38,6 +46,10 @@ http://www.tipue.com/slide
      background-color: #131313;
      z-index: 500;
      overflow-y: auto;
+<<<<<<< HEAD
+=======
+     float:right;
+>>>>>>> master
 }
 .tipue-slide-wrap
 {
