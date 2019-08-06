@@ -3,7 +3,10 @@
           <div class="pure-g">
                     <div class="pure-u-1 pure-u-md-2-5">
 <div class="uk-padding">
-     <img data-srcset="/images/hayden-tomas-large.png" alt="Hayden Tomas - Front-end website developer" uk-img>
+     <img data-srcset="/images/hayden-tomas-large.png 320w,
+                  /images/hayden-tomas-large.png 480w,
+                  /images/hayden-tomas-large.png 800w" sizes="(min-width: 320px) 280px,(min-width: 480px) 440px,800px"
+          src="/images/hayden-tomas-large.png" alt="Hayden Tomas - Front-end website developer" uk-img>
 </div>
                     </div>
                     <div class="pure-u-1 pure-u-md-3-5 intro">
@@ -140,12 +143,7 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
       </div> -->
       <div class="post">
           <div class="post-body">
-          
-          {{ with .Params.feed_image }}
-    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-    {{ $resized := $imageResource.Fill "200x200" }}
-    <img src="{{ $resized.RelPermalink }}" />
-{{ end }}
+          <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2>
           <div class="">
                <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
                <h2><a href="{{.URL}}">{{.Title}}</a></h2>
