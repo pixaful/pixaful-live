@@ -1,14 +1,14 @@
 +++
 date = "2019-07-29T23:00:00+00:00"
 description = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-featured_image = "/uploads/index.png"
+featured_image = "/uploads/hugo-design.jpg"
 ogdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-ogimage = "/uploads/index.png"
+ogimage = "/uploads/hugo-design.jpg"
 ogtitle = "What's up with static site generators?"
 summary = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 title = "What's up with static site generators?"
 twitterdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-twitterimage = "/uploads/index.png"
+twitterimage = "/uploads/hugo-design.jpg"
 twittertitle = "What's up with static site generators?"
 
 +++
