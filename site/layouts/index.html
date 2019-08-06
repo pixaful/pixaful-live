@@ -141,11 +141,11 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
       <div class="post">
           <div class="post-body">
           <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2>
-          {{ with .Params.feed_image }}
+          <!-- {{ with .Params.feed_image }}
     {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
     {{ $resized := $imageResource.Fill "200x200" }}
     <img src="{{ $resized.RelPermalink }}" />
-{{ end }}
+{{ end }} -->
           <div class="">
                <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
                <h2><a href="{{.URL}}">{{.Title}}</a></h2>
