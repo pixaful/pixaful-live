@@ -1,10 +1,10 @@
 +++
 date = "2019-07-29T23:00:00+00:00"
 description = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-featured_image = "https://res.cloudinary.com/pixaful/image/upload/./v1565131351/hugo-design_nqmj99.jpg"
-feed_image = "https://res.cloudinary.com/pixaful/image/upload/./v1565131351/hugo-design_nqmj99.jpg"
+featured_image = "https://res.cloudinary.com/pixaful/image/upload/v1565131841/hugo-design_hgltm6.jpg"
+feed_image = "https://res.cloudinary.com/pixaful/image/upload/v1565131841/hugo-design_hgltm6.jpg"
 ogdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-ogimage = "https://res.cloudinary.com/pixaful/image/upload/./v1565131351/hugo-design_nqmj99.jpg"
+ogimage = "https://res.cloudinary.com/pixaful/image/upload/v1565131841/hugo-design_hgltm6.jpg"
 ogtitle = "What's up with static site generators?"
 summary = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 title = "What's up with static site generators?"
