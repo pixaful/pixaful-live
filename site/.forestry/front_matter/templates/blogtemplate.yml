@@ -33,6 +33,11 @@ fields:
   type: file
   config:
     maxSize: 250
+  label: Feed Image
+   name: feed_image
+  type: file
+  config:
+    maxSize: 250
   label: featured image
 - name: summary
   type: textarea
