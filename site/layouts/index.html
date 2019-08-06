@@ -144,7 +144,7 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
       <div class="post">
           <div class="post-body">
           <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2>
-          <img src="{{ $.Site.Params.cloudinary_base_url }}/w_500{{ .Params.featured_image }}" />
+          <img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.image }}" />
           <div class="">
                <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
                <h2><a href="{{.URL}}">{{.Title}}</a></h2>
