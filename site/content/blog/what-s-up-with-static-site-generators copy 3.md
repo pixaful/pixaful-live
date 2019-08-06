@@ -2,6 +2,7 @@
 date = "2019-07-29T23:00:00+00:00"
 description = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 featured_image = "/uploads/hugo-design.jpg"
+feed_image = "/uploads/hugo-design.jpg"
 ogdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 ogimage = "/uploads/hugo-design.jpg"
 ogtitle = "What's up with static site generators?"
