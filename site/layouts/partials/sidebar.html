@@ -1,13 +1,12 @@
 
 <div class="">
-  <h2>Recent Posts</h2>
   <ul class="">
     {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
     <p class="posted"><span uk-icon="calendar"></span> {{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   <div class="uk-panel uk-text-small">
       <p class="uk-text-uppercase"><strong><a href="{{ .Permalink }}">{{ .Title }}</a></p></strong>
-    <img class="uk-align-left uk-margin-remove-adjacent" src="images/light.jpg" width="150" height="150" alt="{{ .Title }}">
-    <a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a>
+    
+    <a href="{{.URL}}">   {{ with .Params.featured_image }}<img class="uk-align-left uk-margin-remove-adjacent" src="{{ . }}" width="130" height="100" alt="">{{ end }}</a>
  <p> {{.Summary}}</p>
    <hr>
     {{ end }}
