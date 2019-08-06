@@ -16,6 +16,20 @@
 // lg	@media screen and (min-width: 64em)	≥ 1024px	.pure-u-lg-*
 // xl	@media screen and (min-width: 80em)	≥ 1280px	.pure-u-xl-*
 
+.aligner {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.posted {
+  padding: 0em 0em 1em 0em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 8pt;
+  color: #A2A2A2;
+}
+
 $contain: 0 15% 0 15%;
 $contain-md: 0 10% 0 10%;
 $merry: 'Merriweather', serif;
