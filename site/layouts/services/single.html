@@ -1,3 +1,7 @@
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
+
 <h1>Services template</h1>
 
 {{.Content}}
+
+{{ end }}
