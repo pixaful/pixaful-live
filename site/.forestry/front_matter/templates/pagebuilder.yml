@@ -1,0 +1,70 @@
+---
+label: page-builder
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: Description
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: twittertitle
+  label: twittertitle
+- type: text
+  name: twitterdescription
+  label: twitterdescription
+- type: file
+  name: twitterimage
+  label: twitterimage
+- type: text
+  name: ogtitle
+  label: ogtitle
+- type: text
+  name: ogdescription
+  label: ogdescription
+- type: file
+  name: ogimage
+  label: ogimage
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: featured image
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: blocks
+- type: blocks
+  name: page_sections
+  label: Page Sections
+  template_types:
+  - navigation-header
+  - navigation-header-w-button
+  - simple-header
+  - text-only-hero-banner
+  - hero-banner-w-image
+  - content-feature
+  - detail-content
+  - 1-column-text
+  - 2-column-text
+  - 3-column-text
+  - full-width-media-element
+  - 2-column-media-element
+  - signup-bar
+  - simple-footer
+  - 4-column-footer
+  - page-title
