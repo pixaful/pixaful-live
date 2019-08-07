@@ -1,5 +1,5 @@
 ---
-label: pagetemplate
+label: page-template
 hide_body: false
 fields:
 - type: text
