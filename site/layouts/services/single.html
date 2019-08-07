@@ -1,10 +1,28 @@
-{{ if eq .Section "services" }}
-<div class="inner2">
-  <h1>{{ .Title }}</h1>
-  <h2>This is the single services template</h2>
-  <!-- {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }} -->
-  <img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image }}" alt="{{.Title}}" />
-  {{.Content}}
-</div>
+{{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
 
+<main class="Site-content">
+  <div class="pure-g">
+    <div class="pure-u-1 pure-u-md-17-24">
+
+      {{ if eq .Section "services" }}
+      <div class="inner2">
+        <h1>{{ .Title }}</h1>
+        <!-- {{if isset .Params "featured_image" }}<img src="{{ index .Params "featured_image" }}">{{ end }} -->
+        <img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image }}" alt="{{.Title}}" />
+        {{.Content}}
+        <h2>blah</h2>
+      </div>
+
+      {{ end }}
+      {{- range .Params.page_sections -}}
+      {{ partial (printf "blocks/block-%s.html" .block) (dict "Section" . "Page" $) }}
+      {{- end -}}
+    </div>
+
+    <div class="pure-u-1 pure-u-md-7-24">
+      {{ partial "sidebar" . }}
+    </div>
+  </div>
+
+</main>
 {{ end }}
