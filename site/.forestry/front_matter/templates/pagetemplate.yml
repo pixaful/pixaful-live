@@ -8,9 +8,6 @@ fields:
 - type: text
   name: description
   label: Description
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: twittertitle
   label: twittertitle
