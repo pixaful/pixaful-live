@@ -58,4 +58,4 @@ post = ":filename"
 # Site Params
 # -------------
 [params]
-cloudinary_base_url = "https://res.cloudinary.com/pixaful"
+cloudinary_base_url = "https://res.cloudinary.com/pixaful/image/upload"
