@@ -9,6 +9,9 @@ summary = "Page Builder in any section test"
 title = "Page Builder in any section test"
 twitterdescription = "Page Builder in any section test"
 twittertitle = "Page Builder in any section test"
+[menu.mainmenu]
+name = ""
+weight = 5
 [[page_sections]]
 block = "page-title"
 template = "page-title"

@@ -24,6 +24,10 @@ parent = "What I do"
 url = "#"
 weight = 1
 [[menu.mainmenu]]
+name = "Services"
+type = "services"
+weight = 4
+[[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
 name = "Blog"
