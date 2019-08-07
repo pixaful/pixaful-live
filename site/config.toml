@@ -24,20 +24,22 @@ parent = "What I do"
 url = "#"
 weight = 1
 [[menu.mainmenu]]
-name = "What I do"
-url = "#"
-weight = 2
-[[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
 name = "Blog"
 url = "/blog"
 weight = 3
 [[menu.mainmenu]]
+name = "What I do"
+url = "#"
+weight = 2
+[[menu.mainmenu]]
 identifyer = "home"
 name = "Home"
 url = "/"
 weight = 1
+[params]
+cloudinary_base_url = "https://res.cloudinary.com/pixaful/image/upload"
 [params.tiles]
 enable = true
 [[params.tiles.showcase]]
@@ -53,9 +55,3 @@ uglyurls = true
 url = "blogs/tempus"
 [permalinks]
 post = ":filename"
-
-
-# Site Params
-# -------------
-[params]
-cloudinary_base_url = "https://res.cloudinary.com/pixaful/image/upload"

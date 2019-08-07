@@ -11,6 +11,9 @@ title = "What's up with static site generators?"
 twitterdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 twitterimage = "/uploads/hugo-design.jpg"
 twittertitle = "What's up with static site generators?"
+[menu.mainmenu]
+name = "testing the forest"
+weight = 4
 
 +++
 So we are in the process of moving our portfolio website to Hugo. Having seen what Smashing Magazine achieved, we wanted a piece of that. Plus it gives us the chance to brush up on our development skills.
