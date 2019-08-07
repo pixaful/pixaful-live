@@ -4,7 +4,7 @@ description = "Services"
 featured_image = "/v1565162320/hugo-static-site-design_kcix5y.jpg"
 ogdescription = "services"
 ogtitle = "services"
-summary = ""
+summary = "i am a summary"
 title = "Services"
 twitterdescription = "services"
 twittertitle = "services"
@@ -13,4 +13,4 @@ weight = 5
 type = "services"
 
 +++
-Services page
+Services page show me
