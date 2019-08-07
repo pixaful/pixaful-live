@@ -4,6 +4,11 @@ languageLang = "en"
 paginate = 3
 title = "¦¦ Pixaful"
 [[menu.mainmenu]]
+name = "Services"
+parent = "testing the forest"
+type = "services"
+weight = 1
+[[menu.mainmenu]]
 name = "Online Marketing"
 parent = "What I do"
 url = "#"
