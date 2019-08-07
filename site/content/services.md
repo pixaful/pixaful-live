@@ -8,6 +8,8 @@ summary = ""
 title = "Services"
 twitterdescription = "services"
 twittertitle = "services"
+[menu.mainmenu]
+weight = 5
 
 +++
 Services page
