@@ -11,7 +11,7 @@ twitterdescription = "Page Builder in any section test"
 twittertitle = "Page Builder in any section test"
 [menu.mainmenu]
 name = "page builder test"
-weight = 5
+weight = 2
 [[page_sections]]
 block = "page-title"
 template = "page-title"

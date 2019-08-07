@@ -26,17 +26,17 @@ weight = 1
 [[menu.mainmenu]]
 name = "Services"
 type = "services"
-weight = 4
+weight = 5
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
 name = "Blog"
 url = "/blog"
-weight = 3
+weight = 4
 [[menu.mainmenu]]
 name = "What I do"
 url = "#"
-weight = 2
+weight = 3
 [[menu.mainmenu]]
 identifyer = "home"
 name = "Home"
