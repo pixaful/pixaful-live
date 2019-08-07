@@ -6,7 +6,9 @@
   <div class="uk-panel uk-text-small">
       <p class="uk-text-uppercase"><strong><a href="{{ .Permalink }}">{{ .Title }}</a></p></strong>
     
-    <a href="{{.URL}}">   {{ with .Params.featured_image }}<img class="uk-align-left uk-margin-remove-adjacent" src="{{ . }}" width="130" height="100" alt="">{{ end }}</a>
+    <a href="{{.URL}}"><img class="uk-align-left uk-margin-remove-adjacent" src="{{ $.Site.Params.cloudinary_base_url }}/w_130{{ .Params.featured_image }}" alt="{{.Title}}" /></a>
+
+  
  <p> {{.Summary}}</p>
    <hr>
     {{ end }}
