@@ -38,7 +38,7 @@
       <meta property="og:title" content="{{ .Params.ogtitle }}" />
       <meta property="og:type" content="article" />
       <meta property="og:description" content="{{ .Params.ogdescription }}" />
-      <meta property="og:image" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Params.ogimage }}" />
+      <meta property="og:image" content="{{ $.Site.Params.cloudinary_base_url }}/w_1200{{ .Params.featured_image }}" />
       <meta property="og:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink | absURL }}" />
       <meta property="og:site_name" content="Pixaful" />{{- end }}{{ $stylesheet := .Site.Data.webpack.main }}
   {{ with $stylesheet.css }}    <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
