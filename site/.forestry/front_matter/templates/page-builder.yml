@@ -17,18 +17,13 @@ fields:
 - type: text
   name: twitterdescription
   label: twitterdescription
-- type: file
-  name: twitterimage
-  label: twitterimage
 - type: text
   name: ogtitle
   label: ogtitle
 - type: text
   name: ogdescription
   label: ogdescription
-- type: file
-  name: ogimage
-  label: ogimage
+
 - name: featured_image
   type: file
   config:
