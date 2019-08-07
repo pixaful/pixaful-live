@@ -10,6 +10,7 @@ twitterdescription = "services"
 twittertitle = "services"
 [menu.mainmenu]
 weight = 5
+type = "services"
 
 +++
 Services page
