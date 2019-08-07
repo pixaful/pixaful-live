@@ -1,7 +1,7 @@
 +++
 date = "2019-07-29T23:00:00+00:00"
 description = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-featured_image = "/v1565130733/samples/animals/kitten-playing.gif"
+featured_image = "/v1565162320/hugo-static-site-design_kcix5y.jpg"
 feed_image = ""
 ogdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 ogimage = "https://res.cloudinary.com/pixaful/image/upload/v1565131841/hugo-design_hgltm6.jpg"
