@@ -1,16 +1,15 @@
 +++
 date = "2019-08-06T23:00:00+00:00"
-description = "Services"
+description = "E-commerce website development"
 featured_image = "/v1565162320/hugo-static-site-design_kcix5y.jpg"
-ogdescription = "services"
-ogtitle = "servicessssss"
-summary = "i am a summaryyyyy"
-title = "Services"
-twitterdescription = "services"
-twittertitle = "services"
+ogdescription = "E-commerce website development"
+ogtitle = "E-commerce website development"
+summary = "E-commerce website development"
+title = "E-commerce website development"
+twitterdescription = "E-commerce website development"
+twittertitle = "E-commerce website development"
 
 +++
-
 # My page about ecommerce development
 ## H2
 ### H3
