@@ -4,24 +4,24 @@ languageLang = "en"
 paginate = 3
 title = "¦¦ Pixaful"
 [[menu.mainmenu]]
-name = "Online Marketing"
+name = "Search Engine Optimisation"
 parent = "What I do"
-url = "#"
+url = "/services/search-engine-optimisation/"
 weight = 4
 [[menu.mainmenu]]
 name = "Website Maintenance"
 parent = "What I do"
-url = "#"
+url = "/services/website-maintenance"
 weight = 3
 [[menu.mainmenu]]
 name = "Website Security"
 parent = "What I do"
-url = "#"
+url = "/services/website-security/"
 weight = 2
 [[menu.mainmenu]]
 name = "Website Development"
 parent = "What I do"
-url = "#"
+url = "/services/web-development/"
 weight = 1
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
