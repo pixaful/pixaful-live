@@ -8,7 +8,8 @@ title = "where do i end up?"
 twitterdescription = "where do i end up?"
 twittertitle = "where do i end up?"
 [menu.mainmenu]
-weight = 4
+parent = "Blog"
+weight = 1
 
 +++
 where do i end up?
