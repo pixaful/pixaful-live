@@ -8,7 +8,6 @@ summary = "i am a summaryyyyy"
 title = "Services"
 twitterdescription = "services"
 twittertitle = "services"
-layout = "services"
 
 +++
 

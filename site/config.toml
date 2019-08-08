@@ -3,25 +3,39 @@ languageCode = "en-us"
 languageLang = "en"
 paginate = 3
 title = "¦¦ Pixaful"
-[[menu.mainmenu]]
-name = "Search Engine Optimisation"
-parent = "What I do"
-url = "/services/search-engine-optimisation/"
-weight = 4
-[[menu.mainmenu]]
-name = "Website Maintenance"
-parent = "What I do"
-url = "/services/website-maintenance"
-weight = 3
+
+
+
 [[menu.mainmenu]]
 name = "Website Security"
 parent = "What I do"
 url = "/services/website-security/"
-weight = 2
+weight = 6
+[[menu.mainmenu]]
+name = "Website Maintenance"
+parent = "What I do"
+url = "/services/website-maintenance"
+weight = 5
+
+[[menu.mainmenu]]
+name = "Website Consultation"
+parent = "What I do"
+url = "/services/website-consultation/"
+weight = 4
 [[menu.mainmenu]]
 name = "Website Development"
 parent = "What I do"
 url = "/services/web-development/"
+weight = 3
+[[menu.mainmenu]]
+name = "Search Engine Optimisation"
+parent = "What I do"
+url = "/services/search-engine-optimisation/"
+weight = 2
+[[menu.mainmenu]]
+name = "E-Commerce Development"
+parent = "What I do"
+url = "/services/ecommerce-development/"
 weight = 1
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]

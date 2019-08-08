@@ -8,11 +8,10 @@ summary = "i am a summaryyyyy"
 title = "Services"
 twitterdescription = "services"
 twittertitle = "services"
-layout = "services"
 
 +++
 
-# My page about website security
+# My page about ecommerce development
 ## H2
 ### H3
 #### H4
