@@ -7,6 +7,8 @@ summary = "where do i end up?"
 title = "where do i end up?"
 twitterdescription = "where do i end up?"
 twittertitle = "where do i end up?"
+[menu.mainmenu]
+weight = 4
 
 +++
 where do i end up?
