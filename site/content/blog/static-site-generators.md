@@ -25,13 +25,13 @@ That being said, static site builders have always intrigued me.
 
 So far, although it is very much a work in progress I can say yes!
 
-My clients are local businesses. They don't ask for much. Mostly static pages with a contact form. For these clients I can certainly say yes to static websites. Moreover I am usually the one doing the updates. 
+My clients are local businesses. They don't ask for much. Mostly static pages with a contact form. For these clients I can certainly say yes to static websites. Moreover I am usually the one doing the updates.
 
 The clients that prefer to manage their websites are usually e-commerce clients and then I use Wordpress or Magento.
 
 ## The benefits of static websites
 
-1. **Speed** - Database driven websites need to make a call to the database before a page is served, this takes time as the pages do not actually exist until they are required. 
+1. **Speed** - Database driven websites need to make a call to the database before a page is served, this takes time as the pages do not actually exist until they are required.
 2. **Security** - No database means, no hacks! Static websites can be managed using markdown files and then compiled, for the less tech savvy you can attach a headless cms like forestry which lives on a different server.
 3. **Scalability** -  Hugo can build thousands of pages in seconds, it is the fastest static site generator available.
 
@@ -53,4 +53,10 @@ You can build your own forms and add a special tag through netlify that will sen
 
 Indeed it is, usually. But you can add site search features to  a static website. You can use Google custom search or take a look at my own website where I have implemented a javascript search that works very well indeed!
 
-This article is a work in progress. 
+This article is a work in progress.
+
+    <div class="pure-g">
+        <div class="pure-u-1-3"><p>Thirds</p></div>
+        <div class="pure-u-1-3"><p>Thirds</p></div>
+        <div class="pure-u-1-3"><p>Thirds</p></div>
+    </div>
