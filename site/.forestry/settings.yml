@@ -13,6 +13,7 @@ sections:
   - page-template
   - blog-template
   - page-builder
+  - services
 - type: directory
   path: site/content/blog
   label: Blog

@@ -5,7 +5,7 @@ featured_image = "/v1565162320/hugo-static-site-design_kcix5y.jpg"
 ogdescription = "E-commerce website development"
 ogtitle = "E-commerce website development"
 summary = "E-commerce website development"
-title = "E-commerce website development"
+title = "E-Commerce Website Development"
 twitterdescription = "E-commerce website development"
 twittertitle = "E-commerce website development"
 
