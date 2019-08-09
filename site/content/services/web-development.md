@@ -8,6 +8,13 @@ summary = "i am a summaryyyyy"
 title = "Services"
 twitterdescription = "services"
 twittertitle = "services"
+<<<<<<< Updated upstream
+=======
+[menu.mainmenu]
+parent = "Services"
+weight = 1
+
+>>>>>>> Stashed changes
 
 +++
 
