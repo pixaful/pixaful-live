@@ -29,3 +29,8 @@ fields:
 - type: text
   name: twittertitle
   label: twittertitle
+- name: hero_image
+  type: file
+  config:
+    maxSize: 250
+  label: Hero Image
