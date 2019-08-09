@@ -37,3 +37,6 @@ fields:
     schema:
       format: markdown
   label: summary
+pages:
+- site/content/blog/test.md
+- site/content/blog/static-site-generators.md
