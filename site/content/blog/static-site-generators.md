@@ -55,8 +55,12 @@ Indeed it is, usually. But you can add site search features to  a static website
 
 This article is a work in progress.
 
-    <div class="pure-g">
-        <div class="pure-u-1-3"><p>Thirds</p></div>
-        <div class="pure-u-1-3"><p>Thirds</p></div>
-        <div class="pure-u-1-3"><p>Thirds</p></div>
-    </div>
+<div class="pure-g">
+
+<div class="pure-u-1-3"><p>Thirds</p></div>
+
+<div class="pure-u-1-3"><p>Thirds</p></div>
+
+<div class="pure-u-1-3"><p>Thirds</p></div>
+
+</div>
