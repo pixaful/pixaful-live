@@ -2,6 +2,7 @@
 date = "2019-08-06T23:00:00+00:00"
 description = "E-commerce website development"
 featured_image = "/v1565162320/hugo-static-site-design_kcix5y.jpg"
+hero_image = "/v1565383965/services-test-bg_yuexvd.jpg"
 ogdescription = "E-commerce website development"
 ogtitle = "E-commerce website development"
 summary = "E-commerce website development"
