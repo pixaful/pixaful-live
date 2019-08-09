@@ -45,5 +45,4 @@ fields:
   label: summary
 pages:
 - site/content/blog/static-site-generators.md
-- site/content/blog/test-99.md
 - site/content/blog/test.md
