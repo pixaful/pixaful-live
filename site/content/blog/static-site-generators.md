@@ -61,6 +61,8 @@ This article is a work in progress.
 
 ## This is in a custom purecss grid
 
+![](https://res.cloudinary.com/pixaful/image/upload/v1565130733/samples/animals/kitten-playing.gif)
+
 </div>
 
 <div class="pure-u-1-3"><p>Thirds</p></div>
