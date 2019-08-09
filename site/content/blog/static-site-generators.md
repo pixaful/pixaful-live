@@ -59,13 +59,15 @@ This article is a work in progress.
 
 <div class="pure-u-1-3">
 
-## This is in a custom purecss grid
-
-![](https://res.cloudinary.com/pixaful/image/upload/v1565130733/samples/animals/kitten-playing.gif)
+<h2>Custom HTML mixed with Markdown</h2>
 
 </div>
 
-<div class="pure-u-1-3"><p>Thirds</p></div>
+<div class="pure-u-1-3">
+
+<img src="[https://res.cloudinary.com/pixaful/image/upload/c_limit,h_512,w_512/v1565130733/samples/animals/kitten-playing.gif](https://res.cloudinary.com/pixaful/image/upload/c_limit,h_512,w_512/v1565130733/samples/animals/kitten-playing.gif "https://res.cloudinary.com/pixaful/image/upload/c_limit,h_512,w_512/v1565130733/samples/animals/kitten-playing.gif")">
+
+</div>
 
 <div class="pure-u-1-3"><p>Thirds</p></div>
 
