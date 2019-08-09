@@ -64,11 +64,11 @@ This article is a work in progress.
 </div>
 
 <div class="pure-u-1-3">
-
+<img src="https://res.cloudinary.com/pixaful/image/upload/w_415/v1565355507/website-maintenance_y17p1a.jpg" alt="Website Maintenance Buckinghamshire UK"/>
 </div>
 
 <div class="pure-u-1-3"><p>Thirds</p></div>
-
+<img src="https://res.cloudinary.com/pixaful/image/upload/w_415/v1565355507/website-maintenance_y17p1a.jpg" alt="Website Maintenance Buckinghamshire UK"/>
 </div>
 
 <a class="pure-button pure-button-primary" href="#">A Primary Button</a>
