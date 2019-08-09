@@ -8,7 +8,7 @@ summary = "Test"
 title = "Test"
 twitterdescription = "Test"
 twittertitle = "Test"
-webp_version = "/v1565130733/samples/animals/kitten-playing.gif"
+webp_version = "/v1565130733/samples/animals/kitten-playing.webp"
 
 +++
 # Test
