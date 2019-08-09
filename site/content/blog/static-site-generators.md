@@ -64,3 +64,5 @@ This article is a work in progress.
 <div class="pure-u-1-3"><p>Thirds</p></div>
 
 </div>
+
+<a class="pure-button pure-button-primary" href="#">A Primary Button</a>
