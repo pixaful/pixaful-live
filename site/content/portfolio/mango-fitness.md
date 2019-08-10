@@ -13,6 +13,9 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
+[menu.mainmenu]
+parent = "Portfolio"
+weight = 1
 
 +++
 **So you discovered Hugo know you should be using it, after all whats not to love!**
