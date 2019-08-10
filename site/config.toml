@@ -3,20 +3,10 @@ languageCode = "en-us"
 languageLang = "en"
 paginate = 3
 title = "¦¦ Pixaful"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-
-    # COMMENT: Multi-key header rules are expressed with multi-line strings
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
-
+[[menu.mainmenu]]
+name = "Portfolio"
+url = "#"
+weight = 3
 [[menu.mainmenu]]
 name = "Website Security"
 parent = "What I do"
@@ -27,7 +17,6 @@ name = "Website Maintenance"
 parent = "What I do"
 url = "/services/website-maintenance"
 weight = 5
-
 [[menu.mainmenu]]
 name = "Website Consultation"
 parent = "What I do"
@@ -48,13 +37,12 @@ name = "E-Commerce Development"
 parent = "What I do"
 url = "/services/ecommerce-development/"
 weight = 1
-
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
 name = "Blog"
 url = "/blog"
-weight = 3
+weight = 4
 [[menu.mainmenu]]
 name = "What I do"
 url = "#"
@@ -81,3 +69,9 @@ uglyurls = true
 url = "blogs/tempus"
 [permalinks]
 post = ":filename"
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+cache-control = "\tmax-age=0,\n\tno-cache,\n\tno-store,\n\tmust-revalidate"
