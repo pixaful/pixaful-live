@@ -4,10 +4,6 @@ languageLang = "en"
 paginate = 3
 title = "¦¦ Pixaful"
 [[menu.mainmenu]]
-name = "Portfolio"
-url = "#"
-weight = 3
-[[menu.mainmenu]]
 name = "Website Security"
 parent = "What I do"
 url = "/services/website-security/"
@@ -37,6 +33,10 @@ name = "E-Commerce Development"
 parent = "What I do"
 url = "/services/ecommerce-development/"
 weight = 1
+[[menu.mainmenu]]
+name = "Portfolio"
+url = "#"
+weight = 3
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 identifyer = "Blog"
