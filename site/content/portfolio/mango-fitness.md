@@ -13,6 +13,7 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
+sideheading ='This is the side heading and can be as "long" as it needs to be...'
 [menu.mainmenu]
 parent = "Portfolio"
 weight = 1
