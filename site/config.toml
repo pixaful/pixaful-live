@@ -75,3 +75,6 @@ for = "/*"
 X-Frame-Options = "DENY"
 X-XSS-Protection = "1; mode=block"
 cache-control = "\tmax-age=0,\n\tno-cache,\n\tno-store,\n\tmust-revalidate"
+
+
+googleAnalytics = "UA-123-45"
