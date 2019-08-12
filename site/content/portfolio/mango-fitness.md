@@ -15,9 +15,6 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
-[menu.mainmenu]
-parent = "Portfolio"
-weight = 1
 
 +++
 ## This will be the content for the Mango Fitness case study
