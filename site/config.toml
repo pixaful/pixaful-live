@@ -76,5 +76,16 @@ X-Frame-Options = "DENY"
 X-XSS-Protection = "1; mode=block"
 cache-control = "\tmax-age=0,\n\tno-cache,\n\tno-store,\n\tmust-revalidate"
 
+[[headers]]
+  for = "*.js" # js files should be set this way
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "*.css" # css files too
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
 
-googleAnalytics = "UA-123-45"
+[[headers]]
+  for = "*.png" # js files should be set this way
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
