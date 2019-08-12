@@ -9,16 +9,15 @@ summary = "E-commerce website development"
 title = "E-Commerce Website Development "
 twitterdescription = "E-Commerce Website Development services for local businesses"
 twittertitle = "E-commerce website development"
+sideformheading = "Let's talk SHOP!"
+option1 ="A new online shop"
+option2 ="An existing online shop"
 
 +++
 ## E-Commerce Website Development services for local businesses
 
-With just over 8 years of agency website development experience under my belt, I am well equipped to provide small business owners with a cutting-edge e-commerce solution on the platform of their choice.
+With just over 8 years of agency website development experience under my belt, I am well equipped to provide small business owners with an e-commerce solution on the platform of their choice.
 
-I can design from scratch on the following platforms:
-
-1. Magento
-2. Woocommerce
-3. Shopify
+I can design from scratch using Magento or Woocommerce. If you have a static website then I can integrate snipcart or gocommerce.
 
 I have worked with small business owners all over the UK to provide solutions which cover everything you can imagine an online store should have. I can create custom solutions ranging from a specialised checkout through to stripe integration and custom email templates.

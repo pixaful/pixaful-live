@@ -1,0 +1,39 @@
+<div class="uk-card uk-card-default uk-card-body">
+<div id="contact">
+        <form name="contact" action="POST" data-netlify="true">
+             <label class="hidden">Don’t fill this out if you're human: <input name="bot-field" /></label>
+                  <fieldset class="uk-fieldset">
+                       <legend class="uk-legend">{{ .Params.sideformheading }}</legend>
+                       <div class="uk-margin">
+                            <input class="uk-input" type="text" name="name" placeholder="Full Name" required>
+                       </div>
+                       <div class="uk-margin">
+                            <input class="uk-input" type="text" name="email" placeholder="Email Address" required>
+                       </div>
+                       <div class="uk-margin">
+                            <div uk-form-custom="target: > * > span:first-child">
+                                 <select name="role[]">
+                                      <option value="i need help with">I need help with...</option>
+                                      <option value="{{ .Params.option1 }}">{{ .Params.option1 }}</option>
+                                      <option value="{{ .Params.option2 }}">{{ .Params.option2 }}</option>
+                                      <option value="Something else">Something else</option>
+                                 </select>
+                                 <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                      <span></span>
+                                      <span uk-icon="icon: chevron-down"></span>
+                                 </button>
+                            </div>
+                       </div>
+                       <div class="uk-margin">
+                            <textarea class="uk-textarea" name="message" rows="5" placeholder="Enter your message here"></textarea>
+                       </div>
+                       <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                            <label><input class="uk-checkbox" name="checked" type="checkbox" required>  I agree to email communications from Hayden Tomas</label>
+                       </div>
+                       <div class="uk-margin">
+                            <button class="uk-button uk-button-default" type="submit">Send</button>
+                       </div>
+                  </fieldset>
+             </form>
+        </div>
+    </div>
