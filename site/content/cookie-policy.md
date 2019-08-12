@@ -10,14 +10,15 @@ twitterdescription = ""
 twittertitle = ""
 
 +++
+### The "No Cookie" Policy
 
-## The simplest cookie policy you will ever read
-
-We do not store cookies on our website, we do not collect any personal information about you and we do not have annoying ads that follow you around the Internet.
+1. We do not store cookies on our website
+2. We do not collect any personal information about you.
+3.  We do not have annoying ads that follow you around the Internet.
 
 We are about privacy. We care about your data and we respect you and appreciate that you came to visit us today.
 
-You will not find any social buttons to share our articles [here's why](https://www.cookiebot.com/en/cookiebot-report/)
+You will not find any social buttons to share our articles [here's why](https://www.cookiebot.com/en/cookiebot-report/).
 
 For transparency we use a cookie free tracking service called [usefathom](https://usefathom.com/).
 
