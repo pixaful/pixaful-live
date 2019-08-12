@@ -34,5 +34,3 @@ fields:
     schema:
       format: markdown
   label: summary
-pages:
-- site/content/privacy.md
