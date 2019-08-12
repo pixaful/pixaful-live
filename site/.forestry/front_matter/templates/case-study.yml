@@ -2,15 +2,9 @@
 label: Case Study
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
-- type: file
-  name: featured_image
-  label: featured_image
 - type: text
-  name: ogdescription
-  label: ogdescription
+  name: title
+  label: title
 - type: text
   name: ogimage
   label: ogimage
@@ -18,14 +12,14 @@ fields:
   name: ogtitle
   label: ogtitle
 - type: text
+  name: ogdescription
+  label: ogdescription
+- type: file
+  name: featured_image
+  label: featured_image
+- type: text
   name: ogurl
   label: ogurl
-- type: textarea
-  name: summary
-  label: summary
-- type: text
-  name: title
-  label: title
 - type: text
   name: twittercreator
   label: twittercreator
