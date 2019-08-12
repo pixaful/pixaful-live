@@ -211,9 +211,9 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
           <!-- <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2> -->
      
      <picture>
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.webp_version }}" type="image/webp">
-          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" type="image/jpeg">
-          <img src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" alt="{{.Title}}" />
+          <source width="351" height="234" srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.webp_version }}" type="image/webp">
+          <source width="351" height="234" srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" type="image/jpeg">
+          <img width="351" height="234" src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" alt="{{.Title}}" />
      </picture>
           <div class="">
                <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
