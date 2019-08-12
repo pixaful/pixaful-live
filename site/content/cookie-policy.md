@@ -10,6 +10,7 @@ twitterdescription = ""
 twittertitle = ""
 
 +++
+
 ## The simplest cookie policy you will ever read
 
 We do not store cookies on our website, we do not collect any personal information about you and we do not have annoying ads that follow you around the Internet.
