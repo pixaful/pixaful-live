@@ -14,7 +14,7 @@ twittertitle = ""
 
 1. We do not store cookies on our website
 2. We do not collect any personal information about you.
-3.  We do not have annoying ads that follow you around the Internet.
+3. We do not have annoying ads that follow you around the Internet.
 
 We are about privacy. We care about your data and we respect you and appreciate that you came to visit us today.
 
