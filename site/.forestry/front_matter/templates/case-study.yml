@@ -28,3 +28,5 @@ fields:
   config:
     required: false
   label: Side Heading
+pages:
+- site/content/portfolio/mango-fitness.md

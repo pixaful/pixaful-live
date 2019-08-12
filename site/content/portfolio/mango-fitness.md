@@ -1,5 +1,6 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
+description = ""
 featured_image = "/v1565470090/first-image_gc6otr.jpg"
 ogdescription = ""
 ogimage = ""
@@ -21,4 +22,4 @@ weight = 1
 +++
 ## This will be the content for the Mango Fitness case study
 
-Using a markdown file 
+Using a markdown file
