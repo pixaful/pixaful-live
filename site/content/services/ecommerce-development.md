@@ -14,6 +14,7 @@ option1 ="A new online shop"
 option2 ="An existing online shop"
 
 +++
+
 ## E-Commerce Website Development services for local businesses
 
 With just over 8 years of agency website development experience under my belt, I am well equipped to provide small business owners with an e-commerce solution on the platform of their choice.
