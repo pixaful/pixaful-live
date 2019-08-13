@@ -17,8 +17,19 @@ option2 ="An existing online shop"
 
 ## E-Commerce Website Development services for local businesses
 
-With just over 8 years of agency website development experience under my belt, I am well equipped to provide small business owners with an e-commerce solution on the platform of their choice.
+If your business requires an online shop or e-commerce solution added onto an existing website, I can help.
 
-I can design from scratch using Magento or Woocommerce. If you have a static website then I can integrate snipcart or gocommerce.
+Wether you need a small shop or have dreams or becoming the next Amazon, I have the technical expertise and experience to help you get your idea off the ground.
 
-I have worked with small business owners all over the UK to provide solutions which cover everything you can imagine an online store should have. I can create custom solutions ranging from a specialised checkout through to stripe integration and custom email templates.
+No matter what type of business you have, there is an e-commerce solution to suit your needs.
+
+Existing website owners that have experience with WordPress usually prefer Woocommerce as it integrates perfectly.
+
+Larger stores may opt for Magento as it is built for purpose which means it is not added on to an existing website. However in many cases using Magento can be like taking a sledgehammer to crack a nut. Let's discuss your needs first!
+
+If you own a static website and have decided to bolt a shop on, I have a couple of options that can help you. I have over 8 years of experiecne building complete stores in Wordpress and Magento. I can provide a complete store setup with full updates, security patches, sales funnels and more.
+
+### How much will an e-commerce store cost?
+
+It depends on the platform, the amount of products, how many different configurations they have and the levels of complexity. Different stores have different requirements. Let's discuss!
+
