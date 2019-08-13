@@ -25,6 +25,12 @@ No matter what type of business you have, there is an e-commerce solution to sui
 
 Existing website owners that have experience with WordPress usually prefer Woocommerce as it integrates perfectly.
 
+  <picture>
+                              <source width="1000" height="667" data-srcset="https://res.cloudinary.com/pixaful/image/upload/v1565737236/online-shopping_bmfb9u.webp" type="image/webp" uk-img>
+                              <source width="1000" height="667" data-srcset="https://res.cloudinary.com/pixaful/image/upload/v1565737236/online-shopping_bmfb9u.jpg" type="image/jpeg" uk-img>
+                              <img width="1000" height="667" data-src="https://res.cloudinary.com/pixaful/image/upload/v1565737236/online-shopping_bmfb9u.jpg" alt="E-Commerce website development Services Buckinghamshire UK" uk-img>
+                         </picture> 
+
 Larger stores may opt for Magento as it is built for purpose which means it is not added on to an existing website. However in many cases using Magento can be like taking a sledgehammer to crack a nut. Let's discuss your needs first!
 
 If you own a static website and have decided to bolt a shop on, I have a couple of options that can help you. I have over 8 years of experiecne building complete stores in Wordpress and Magento. I can provide a complete store setup with full updates, security patches, sales funnels and more.
