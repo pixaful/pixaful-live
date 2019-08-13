@@ -8,19 +8,24 @@ summary = ""
 title = "Cookie Policy"
 twitterdescription = ""
 twittertitle = ""
+hero_image = "/v1565738032/cookie-policy_fueoaw.jpg"
 
 +++
 ### The "No Cookie" Policy
 
-1. We do not store cookies on our website
+1. We do not use any type of tracking cookies
 2. We do not collect any personal information about you.
-3. We do not have annoying ads that follow you around the Internet.
+3. We do not use annoying ads that follow you around the Internet.
 
-We are about privacy. We care about your data and we respect you and appreciate that you came to visit us today.
+We care about privacy. We care about your data, respect you and appreciate that you came to visit our website today.
 
-You will not find any social buttons to share our articles [here's why](https://www.cookiebot.com/en/cookiebot-report/).
+You will not find any social buttons to share our articles <a href="https://www.cookiebot.com/en/cookiebot-report/" target="_blank">Here's why</a>
 
-For transparency we use a cookie free tracking service called [usefathom](https://usefathom.com/).
+You are of course free to share our articles :)
+
+For transparency we use a cookie free tracking service called <a href="https://usefathom.com/" target="_blank">Fathom</a>
+
+Fathom Analytics provides simple, useful website stats without tracking or storing personal data of it's users.
 
 We love cookies, with tea. Because we are English, we love tea.
 
