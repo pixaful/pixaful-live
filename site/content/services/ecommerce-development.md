@@ -13,6 +13,16 @@ sideformheading = "Let's talk SHOP!"
 option1 ="A new online shop"
 option2 ="An existing online shop"
 
+blockset = true
+  Title1 = "Experienced with platforms"
+  Desc1 ="I have the knowledge to use a platform that works for you. I also have the design skills to deliver the perfect eCommerce experience."
+  Title2 = "Scalable Builds"
+  Desc2 ="I build with the future in mind. Should you want to expand your store, or go even bigger with the site, your build will handle the scale."
+  Title3 = "Bespoke"
+  Desc3 ="I design and build experiences, so I design and build everything from scratch, which makes your site quick to load and easy to use."
+
+sideform = false
+
 +++
 
 ## E-Commerce Website Development services for local businesses

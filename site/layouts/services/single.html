@@ -9,10 +9,6 @@
       <div class="pure-u-1 pure-u-md-7-24">
           {{ partial "sideform" . }}
       </div>
-    </div>
-   
-      {{ if .Site.Params.Tiles.enable }}
-      {{ partial "triplewords" . }}
-      {{ end }}
+    </div>{{ if .Site.Params.Tiles.enable }}{{ partial "triplewords" . }}{{ end }}
 </main>
 {{ end }}
