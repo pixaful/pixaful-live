@@ -11,17 +11,6 @@
   command = "npm run build:preview"
 
 [[headers]]
-  for = "/*"
-
-
-    # COMMENT: Multi-key header rules are expressed with multi-line strings
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
-
-[[headers]]
   for = "*.js" # js files should be set this way
   [headers.values]
     Cache-Control = "public, max-age=604800"
