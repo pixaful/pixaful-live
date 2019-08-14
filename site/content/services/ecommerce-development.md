@@ -26,10 +26,10 @@ No matter what type of business you have, there is an e-commerce solution to sui
 Existing website owners that have experience with WordPress usually prefer Woocommerce as it integrates perfectly.
 
   <picture>
-                              <source width="914" height="609" data-srcset="https://res.cloudinary.com/pixaful/image/upload/w_914,h_609/v1565737236/online-shopping_bmfb9u.webp" type="image/webp" uk-img>
-                              <source width="914" height="609" data-srcset="https://res.cloudinary.com/pixaful/image/upload//w_914,h_609/v1565737236/online-shopping_bmfb9u.jpg" type="image/jpeg" uk-img>
-                              <img width="914" height="609" data-src="https://res.cloudinary.com/pixaful/image/upload//w_914,h_609/v1565737236/online-shopping_bmfb9u.jpg" alt="E-Commerce website development Services Buckinghamshire UK" uk-img>
-                         </picture> 
+  <source width="914" height="609" data-srcset="https://res.cloudinary.com/pixaful/image/upload/w_914,h_609/v1565737236/online-shopping_bmfb9u.webp" type="image/webp" uk-img>
+  <source width="914" height="609" data-srcset="https://res.cloudinary.com/pixaful/image/upload//w_914,h_609/v1565737236/online-shopping_bmfb9u.jpg" type="image/jpeg" uk-img>
+  <img width="914" height="609" data-src="https://res.cloudinary.com/pixaful/image/upload//w_914,h_609/v1565737236/online-shopping_bmfb9u.jpg" alt="E-Commerce website development Services Buckinghamshire UK" uk-img>
+  </picture> 
 
 Larger stores may opt for Magento as it is built for purpose which means it is not added on to an existing website. However in many cases using Magento can be like taking a sledgehammer to crack a nut. Let's discuss your needs first!
 

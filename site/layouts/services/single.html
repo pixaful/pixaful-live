@@ -10,6 +10,9 @@
           {{ partial "sideform" . }}
       </div>
     </div>
-    {{ partial "triplewords" . }}
+   
+      {{ if .Site.Params.Tiles.enable }}
+      {{ partial "triplewords" . }}
+      {{ end }}
 </main>
 {{ end }}
