@@ -50,6 +50,7 @@
   {{ block "main" . }}{{end}}
 
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
 <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
   <div class="uk-offcanvas-bar">
       <button class="uk-offcanvas-close" type="button" uk-close></button>
@@ -63,6 +64,7 @@
         <div id="tipue_search_content"></div>
   </div>
 </div>
+
 <!-- {{ $script := .Site.Data.webpack.main }}
 {{ with $script.js }}
 <script src="{{ relURL . }}"></script>
