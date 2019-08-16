@@ -53,22 +53,5 @@ You can build your own forms and add a special tag through netlify that will sen
 
 Indeed it is, usually. But you can add site search features to  a static website. You can use Google custom search or take a look at my own website where I have implemented a javascript search that works very well indeed!
 
-This article is a work in progress.
 
-<div class="pure-g">
 
-<div class="pure-u-1-3">
-
-<h2>Custom HTML mixed with Markdown</h2>
-
-</div>
-
-<div class="pure-u-1-3">
-<img src="https://res.cloudinary.com/pixaful/image/upload/w_415/v1565355507/website-maintenance_y17p1a.jpg" alt="Website Maintenance Buckinghamshire UK"/>
-</div>
-
-<div class="pure-u-1-3"><p>Thirds</p></div>
-<img src="https://res.cloudinary.com/pixaful/image/upload/w_415/v1565355507/website-maintenance_y17p1a.jpg" alt="Website Maintenance Buckinghamshire UK"/>
-</div>
-
-<a class="pure-button pure-button-primary" href="#">A Primary Button</a>
