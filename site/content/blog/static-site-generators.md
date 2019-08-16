@@ -16,14 +16,29 @@ webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
 +++
 ## Building a static website is totally worth it
 
-Usually I am rolling WordPress. I am not a fan of it personally, but my clients are and they pay my bills. I am however a pan of PHP and can make WordPress do anything I need to. You can use a few plugins to get rid of the junk for a boilerplate setup and your good to go.
+For years I have been working on a variety of content managemnt systems. I have worked with Magento, DNN, CraftCMS, Wordpress, Shopify and more. Usually I roll WordPress.
 
-That being said, static site builders have always intrigued me.
+Until very recently I thought it was the dogs nuts, then they decided they wanted a bit of the old page builder action and I knew it was time to move on.
 
-1. Can I build a website in HUGO quicker than I can in WordPress?
-2. Can I build it in such a way that can be managed by a client?
+Don't get me wrong. Page builders have their place. In fact I own licences for Divi, Elementor and Beaver Builder. The reason is simple. My Wordpress clients love them and have grown up on them. They pay my bills and are happy with the work I produce on them. It makes their life very easy when they want to make a change. 
 
-So far, although it is very much a work in progress I can say yes!
+You give up optimisation for convenience and if you are happy with that, I am willing to help you. It is my job top make you a happy client!
+
+## But I can hand code, I don't need convenience
+
+So I tried out Hugo static site builder and this is what I discovered:
+
+<ul>
+<li>Everything i wanted on my portfolio site in Wordpress, I could do in Hugo 3 times faster</li>
+<li>Templating is very easy</li>
+<li>If you are building for yourself, don't bother with a headless CMS as it will slow you down</li>
+<li>Hugo is fast, how fast? Chuck Norris fast!</li>
+<li>I finally managed to get the holy grail 100 pagespeed insights score, with no effort and NO PLUGINS! (Hugo does not have plugins)</li>
+</ul>
+
+Ok Yslow is letting me down with a dismal 96 out of 100 but that is down to analytics.
+
+## Would I use it on client sites?
 
 My clients are local businesses. They don't ask for much. Mostly static pages with a contact form. For these clients I can certainly say yes to static websites. Moreover I am usually the one doing the updates.
 
