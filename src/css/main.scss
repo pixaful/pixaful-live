@@ -5,20 +5,24 @@
 @import 'imports/grids-responsive-min';
 @import 'imports/sm-core-css';
 @import 'imports/sm-simple';
-@import 'imports/fonts';
 @import 'imports/hovercards';
 @import 'imports/uikit';
 @import 'imports/owl.carousel.min';
 @import 'imports/owl.theme.default';
-
-
-
-
-
+@import 'imports/fonts';
 // sm	@media screen and (min-width: 35.5em)	≥ 568px	.pure-u-sm-*
 // md	@media screen and (min-width: 48em)	≥ 768px	.pure-u-md-*
 // lg	@media screen and (min-width: 64em)	≥ 1024px	.pure-u-lg-*
 // xl	@media screen and (min-width: 80em)	≥ 1280px	.pure-u-xl-*
+
+/* Fake container */
+$contain-sm: 0 5% 0 5%;
+$contain-md: 0 10% 0 10%;
+$contain: 0 15% 0 15%;
+
+/* Fonts */
+$merry: 'Merriweather', serif;
+$cabin: 'Cabin', sans-serif;
 
 .aligner {
   display: flex !important;
@@ -26,6 +30,7 @@
   justify-content: center;
 }
 
+/* Used on side of single blog post */
 .posted {
   padding: 0em 0em 1em 0em;
   letter-spacing: 1px;
@@ -34,51 +39,6 @@
   color: #A2A2A2;
 }
 
-$contain: 0 15% 0 15%;
-$contain-md: 0 10% 0 10%;
-$merry: 'Merriweather', serif;
-$cabin: 'Cabin', sans-serif;
-
-/* PureCSS font overide */
-.pure-g {
-  font-family: $merry !important;
-}
-
-/* Social Icons in Footer */
-.ex3 {
-  text-align: left;
-  background: #fff;
-
-  i {
-    margin: 0 20px 0 0;
-    color: #333;
-    cursor: pointer;
-
-    &:hover {
-        color: #ef43a1;
-        -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -moz-transform: translateY(-10px);
-        -ms-transform: translateY(-10px);
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-      
-    }
-  }
-
-}
-
-a {
-  color: #329fad;
-  text-decoration: none;
-  transition: .3s;
-}
-
-a:hover {
-  color: #222;
-}
 
 /* Basic Blue Button with arrow on hover */
 a.btn {
@@ -92,17 +52,14 @@ a.btn {
   font-weight: bold;
   text-transform:uppercase;
   position:relative;
-
 &:hover {
   padding-left: 26px;
   padding-right: 46px;
 }
-
 &:hover:after {
   opacity: 1;
   right: 16px;
 }
-
 &:after {
   content: "";
   position: absolute;
@@ -116,7 +73,6 @@ a.btn {
   opacity: 0;
   transition: all 0.2s ease-in;
 }
-
 &:focus,
 &:active {
   box-shadow: none !important;
@@ -134,7 +90,7 @@ body {
   line-height:1.5em;
 }
 header,main,.container {
-  padding:$contain;
+  padding:$contain-sm;
 }
 main.single {
   padding:0;
@@ -147,6 +103,11 @@ img {
   max-width:100%;
 }
 
+.logo {
+  display:block;
+  margin: 0 auto;
+  width:136px;
+}
 
 .biggap {
   padding:40px 0 40px 0;
