@@ -1,66 +1,54 @@
 +++
 date = "2019-08-06T23:00:00+00:00"
-description = "Services"
-featured_image = "/v1565162320/hugo-static-site-design_kcix5y.jpg"
-ogdescription = "services"
-ogtitle = "servicessssss"
-summary = "i am a summaryyyyy"
+description = "Search Engine Optimisation"
+featured_image = "/v1565386719/ecommerce-development-large_o6lvdy.jpg"
+hero_image = "/v1565384485/ecommerce-development_ifjftu.jpg"
+ogdescription = "E-Commerce Website Development services for local businesses"
+ogtitle = "Search Engine Optimisation"
+summary = "Search Engine Optimisation"
 title = "Search Engine Optimisation"
-twitterdescription = "services"
-twittertitle = "services"
+twitterdescription = "E-Commerce Website Development services for local businesses"
+twittertitle = "Search Engine Optimisation"
+sideformheading = "Let's talk SHOP!"
+option1 ="A new online shop"
+option2 ="An existing online shop"
+
+blockset = true
+  Title1 = "White Hat SEO Service"
+  Desc1 ="I have the knowledge to use a platform that works for you. I also have the design skills to deliver the perfect eCommerce experience."
+  Title2 = "Trusted Partners"
+  Desc2 ="I build with the future in mind. Should you want to expand your store, or go even bigger with the site, your build will handle the scale."
+  Title3 = "Designed for Local Businesses"
+  Desc3 ="I design and build experiences, so I design and build everything from scratch, which makes your site quick to load and easy to use."
+
+sideform = false
 
 +++
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+## Search Engine Optimisation services for local businesses
 
-Alternatively, for H1 and H2, an underline-ish style:
+If you run a local business and have a website, then you will need to be visible on the web so that your clients can find you.
 
-Alt-H1
-======
+As a website developer,part of my job is to ensure that every website I create is SEO ready when I hand it over to my client. 
 
-Alt-H2
-------
+That means ensuring that:
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+<ul>
+<li>Ensuring that page titles optimised</li>
+<li>On-page content has the right amount of keywords and phrases</li>
+<li>Images have alt tags</li>
+<li>Twitter and Open Graph cards are filled in for every page</li>
+<li>Checking the site for dead links</li>
+<li>Making sure the site loads nice and fast!</li>
+</ul>
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+This is basic level on-page seo that every web developer should be able to do, and it's also where my job ends in SEO as I am more suited to building websites than optimising them. 
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+I have teamed up with a UK based SEO expert, and they are ready to take your local business to the next level.
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+  <picture>
+  <source width="914" height="609" data-srcset="https://res.cloudinary.com/pixaful/image/upload/w_914,h_609/v1565737236/online-shopping_bmfb9u.webp" type="image/webp" uk-img>
+  <source width="914" height="609" data-srcset="https://res.cloudinary.com/pixaful/image/upload//w_914,h_609/v1565737236/online-shopping_bmfb9u.jpg" type="image/jpeg" uk-img>
+  <img width="914" height="609" data-src="https://res.cloudinary.com/pixaful/image/upload//w_914,h_609/v1565737236/online-shopping_bmfb9u.jpg" alt="E-Commerce website development Services Buckinghamshire UK" uk-img>
+  </picture> 
 
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
