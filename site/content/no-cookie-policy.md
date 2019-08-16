@@ -13,7 +13,7 @@ hero_image = "/v1565738032/cookie-policy_fueoaw.jpg"
 +++
 ### The "No Cookie" Policy
 
-1. We do not use any type of tracking cookies
+1. We do not use any type of tracking cookies.
 2. We do not collect any personal information about you.
 3. We do not use annoying ads that follow you around the Internet.
 
