@@ -193,10 +193,36 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
           {{- if eq .template "body-copy" -}}{{ partial "blocks/content" (dict "Params" .) }}{{- end -}}
           {{- end -}}
      </div> -->
-      <h2 class="biggap">My blog is full of helpful articles for developers, covering everything I use in my daily web development workflow.</h2>
-      <div class="homeposts">
+     <!-- Set up your HTML --> 
+     <h2 class="biggap">My blog is full of helpful articles for developers, covering everything I use in my daily web development workflow.</h2>
+     <div class="owl-carousel owl-theme">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
-      {{ range .Paginator.Pages }}
+          {{ range .Paginator.Pages }}
+          <div class="post">
+               <div class="post-body">
+                    <!-- <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2> -->
+          
+                    <picture>
+                         <source width="351" height="234"
+                              srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.webp_version }}" type="image/webp">
+                         <source width="351" height="234"
+                              srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}"
+                              type="image/jpeg">
+                         <img width="351" height="234"
+                              src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" alt="{{.Title}}" />
+                    </picture>
+                    <div class="">
+                         <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
+                         <h2><a href="{{.URL}}">{{.Title}}</a></h2>
+                         {{.Summary}}
+                    </div>
+               </div>
+          </div>
+      {{ end }}
+     </div>
+    
+      <div class="homeposts">
+          
       <!-- <div class="post">
           <h2><a href="{{.URL}}">{{.Title}}</a></h2>
            <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
@@ -206,23 +232,8 @@ xl 	@media screen and (min-width: 80em) 	≥ 1280px 	.pure-u-xl-*
 {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}
            <p style="font-size:18px;">{{.Summary}}</p>
       </div> -->
-      <div class="post">
-          <div class="post-body">
-          <!-- <h2><a href="{{.URL}}">   {{ with .Params.featured_image }}<img src="{{ . }}">{{ end }}</a></h2> -->
-     
-     <picture>
-          <source width="351" height="234" srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.webp_version }}" type="image/webp">
-          <source width="351" height="234" srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" type="image/jpeg">
-          <img width="351" height="234" src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" alt="{{.Title}}" />
-     </picture>
-          <div class="">
-               <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
-               <h2><a href="{{.URL}}">{{.Title}}</a></h2>
-            {{.Summary}}
-             </div>
-          </div>
-     </div>
- {{ end }}
+  
+
 </div>
 </main>
  {{ end }}
