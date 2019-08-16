@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-paginate = 6
+paginate = 3
 title = "¦¦ Pixaful"
 [[menu.mainmenu]]
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
