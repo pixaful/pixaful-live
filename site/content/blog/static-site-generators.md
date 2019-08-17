@@ -16,7 +16,7 @@ webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
 +++
 ## Building a static website is totally worth it
 
-For years I have been working on a variety of content managemnt systems. I have worked with Magento, DNN, CraftCMS, Wordpress, Shopify and more. Usually I roll WordPress.
+For years I have been working on a variety of content management systems. I have worked with Magento, DNN, CraftCMS, Wordpress, Shopify and more. Usually I roll WordPress.
 
 Until very recently I thought it was the dogs nuts, then they decided they wanted a bit of the old page builder action and I knew it was time to move on.
 
