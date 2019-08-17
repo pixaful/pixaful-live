@@ -42,7 +42,7 @@ If you truly want to challenge yourself as a front-end developer, go back to bas
 <li>Learn HTMl and CSS without using frameworks such as bootstrap for layouts</li>
 <li>Learn Javascript and don't rely on jQuery</li>
 <li>Learn command line</li>
-<li>Pick a backend language. Don't just pick the one which you think is the coolest, every language out there os being used</li>
+<li>Pick a backend language. Don't just pick the one which you think is the coolest</li>
 </ul>
 
 FYI: I do use a grid system on this website, but I only began using them once I got the basics down. My preferred grid is purecss because it is incredibly light. That being said, I am planning on dropping it very soon for grid css.
