@@ -1,17 +1,17 @@
 +++
 date = "2019-08-17"
 description = "To become a website developer, you need to keep learning and building on your skillset. From front to back..."
-featured_image = "/v1565131841/hugo-design_hgltm6.jpg"
+featured_image = "/v1566079940/web-dev-skills_l3olnx.jpg"
 feed_image = ""
-ogdescription = "I don't have all the skills, but i get by!"
-ogimage = "https://res.cloudinary.com/pixaful/image/upload/v1565131841/hugo-design_hgltm6.jpg"
-ogtitle = "I don't have all the skills, but i get by!"
+ogdescription = "Must have Web Development Skills"
+ogimage = "https://res.cloudinary.com/pixaful/image/upload/v1566079940/web-dev-skills_l3olnx.jpg"
+ogtitle = "Must have Web Development Skills"
 summary = "To become a website developer, you need to keep learning and building on your skillset. From front to back..."
-title = "I don't have all the skills, but i get by!"
+title = "Must have Web Development Skills"
 twitterdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
-twitterimage = "/uploads/hugo-design.jpg"
-twittertitle = "What's up with static site generators?"
-webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
+twitterimage = "https://res.cloudinary.com/pixaful/image/upload/v1566079940/web-dev-skills_l3olnx.jpg"
+twittertitle = "Must have Web Development Skills"
+webp_version = "/v1566079940/web-dev-skills_l3olnx.webp"
 
 +++
 ## Must have Web Development Skills
@@ -45,7 +45,7 @@ If you truly want to challenge yourself as a front-end developer, go back to bas
 <li>Pick a backend language. Don't just pick the one which you think is the coolest, every language out there os being used</li>
 </ul>
 
-I am selecting PHP as my backend language because I work with Wordpress and magento quite a bit so it only makes sense. It may not be the coolest language but since V7 it has grown up quite a bit and is well worth checking out. Then I would pick Python or Ruby
+I am selecting PHP as my backend language because I work with Wordpress and magento quite a bit so it only makes sense. It may not be the coolest language but since V7 it has grown up quite a bit and is well worth checking out. Then I would pick Python or Ruby.
 
 
 
