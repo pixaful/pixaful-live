@@ -43,7 +43,7 @@ Existing website owners that have experience with WordPress usually prefer Wooco
 
 Larger stores may opt for Magento as it is built for purpose which means it is not added on to an existing website. However in many cases using Magento can be like taking a sledgehammer to crack a nut. Let's discuss your needs first!
 
-If you own a static website and have decided to bolt a shop on, I have a couple of options that can help you. I have over 8 years of experiecne building complete stores in Wordpress and Magento. I can provide a complete store setup with full updates, security patches, sales funnels and more.
+If you own a static website and have decided to bolt a shop on, I have a couple of options that can help you. I have over 8 years of experience building complete stores in Wordpress and Magento. I can provide a complete store setup with full updates, security patches, sales funnels and more.
 
 ### How much will an e-commerce store cost?
 
