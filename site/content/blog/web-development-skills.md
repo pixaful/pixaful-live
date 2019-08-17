@@ -14,17 +14,17 @@ twittertitle = "What's up with static site generators?"
 webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
 
 +++
-## I don't have all the skills, but i get by!
+## Must have Web Development Skills
 
-I have worked professionally for the same agency for around 8 years. I have barely touched javascript. It's a shame as I would love to dig deep into the language and produce my own software.
+There are many paths into web development.
 
-This is one of the reasons I moved to Hugo, it means I can push myself to learn new things. With Wordpress its too easy to push a button or use a builder. 
+When I started out I spent thousands of pounds on courses because I wanted to get into IT. What I did not know is that I was on the completely wrong path.
 
-You can of course choose not to use builders, and you can use plugins to disable things. You can even not use plugins and dig into the functions.php file
+I started out with a Microsoft course and very quickly realise I had bitten off more than I could chew.
 
-But I wanted something simpler for Pixaful. I wanted to challenge myself with a new language. You could argue that GO templating isn't a language. Go is the language and I am using a particular part of it to achierve my goals. I also cannot programme in C but i can create a skin in DNN. And I do not know PHP but I can create my own wordpress theme.
+It was only years later when I took a basic CIW (Certified Internet Webmaster) course whihc helped lay the foundations for the correct path.
 
-You don't have to know these languages to build epic websites, but it does not mean that you shouldn't try to pick up a langage here and there. I suggest Javascript :)
+I did not want to be a software developer, I wanted to design websites.
 
 
 
