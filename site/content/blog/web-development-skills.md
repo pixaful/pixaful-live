@@ -26,5 +26,28 @@ It was only years later when I took a basic CIW (Certified Internet Webmaster) c
 
 I did not want to be a software developer, I wanted to design websites.
 
+8 years later, my passions remain the same. I enjoy building webpages, however I am more interested in building software. 
+
+I am interested in learning Ruby, PHP, Javascript. I don't know these languages but I have spent the last 8 years building websites for clients all over the UK.
+
+Content management systems make it extremely easy to skip the learning process and just get on with learning how to theme. Most of teh hard work has been done through the variety of plugins or modules. 
+
+If you need a contact form, a timeline or some other widget that displays something in a fancy way or provides some form of logic then the chances are that it already exists. So why build it?
+
+## Challenge yourself
+
+If you truly want to challenge yourself as a front-end developer, go back to basics. Don't rely on Wordpress and its wide array of pagebuilders to prop up your web development career.
+
+<ul>
+<li>Learn HTMl and CSS without using frameworks such as bootstrap for layouts</li>
+<li>Learn Javascript and don't rely on jQuery</li>
+<li>Learn command line</li>
+<li>Pick a backend language. Don't just pick the one which you think is the coolest, every language out there os being used</li>
+</ul>
+
+I am selecting PHP as my backend language because I work with Wordpress and magento quite a bit so it only makes sense. It may not be the coolest language but since V7 it has grown up quite a bit and is well worth checking out. Then I would pick Python or Ruby
+
+
+
 
 
