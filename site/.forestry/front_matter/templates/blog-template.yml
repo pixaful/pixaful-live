@@ -44,5 +44,6 @@ fields:
       format: markdown
   label: summary
 pages:
+- site/content/blog/how-to-connect-a-headless-cms-to-your-static-website.md
 - site/content/blog/web-development-skills.md
 - site/content/blog/static-site-generators.md
