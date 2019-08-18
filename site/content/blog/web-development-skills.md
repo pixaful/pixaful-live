@@ -20,23 +20,23 @@ There are many paths into web development.
 
 When I started out I spent thousands of pounds on courses because I wanted to get into IT. What I did not know is that I was on the completely wrong path.
 
-I started out with a Microsoft course and very quickly realise I had bitten off more than I could chew.
+I started out with a Microsoft course and very quickly realise I had bitten off more than I could chew. 
 
 It was only years later when I took a basic CIW (Certified Internet Webmaster) course which put me on the right path.
 
 I did not want to be a software developer, I wanted to design websites.
 
-8 years later, my passions remain the same. I enjoy building webpages, however I am more interested in building software than I used to be. 
+8 years later, my passions remain the same. I enjoy building web pages, however I am more interested in building software than I used to be.
 
 I am interested in learning Ruby, PHP, Javascript. I don't know these languages but I have spent the last 8 years building websites for clients all over the UK.
 
-Content management systems make it extremely easy to skip the learning process and just get on with learning how to theme. Most of the hard work has been done through the variety of plugins or modules. 
+Content management systems make it extremely easy to skip the learning process and just get on with learning how to theme. Most of the hard work has been done through the variety of plugins or modules.
 
 If you need a contact form, a timeline or some other widget that displays something in a fancy way or provides some form of logic then the chances are that it already exists. So why build it?
 
 ## Challenge yourself
 
-If you truly want to challenge yourself as a front-end developer, go back to basics. Don't rely on Wordpress and its wide array of pagebuilders to prop up your web development career.
+If you truly want to challenge yourself as a front-end developer, go back to basics. Don't rely on Wordpress and its wide array of page builders to prop up your web development career.
 
 <ul>
 <li>Learn HTMl and CSS without using frameworks such as bootstrap for layouts</li>
@@ -47,4 +47,8 @@ If you truly want to challenge yourself as a front-end developer, go back to bas
 
 FYI: I do use a grid system on this website, but I only began using them once I got the basics down. My preferred grid is purecss because it is incredibly light. That being said, I am planning on dropping it very soon for grid css.
 
-I am selecting PHP as my backend language because I work with Wordpress and magento quite a bit so it only makes sense. It may not be the coolest language but since V7 it has grown up quite a bit and is well worth checking out. Then I would pick Python or Ruby.
+I am selecting PHP as my backend language because I work with Wordpress and Magento quite a bit so it only makes sense. It may not be the coolest language but since V7 it has grown up quite a bit and is well worth checking out. Then I would pick Python or Ruby.
+
+If you want to get into website development then do your research as there are many paths. Back end developers tend to work mostly on the functionality of websites and applications where front end developers work on the front end of a website or application. 
+
+You can also go full stack and do both, but get good at one of them first! 
