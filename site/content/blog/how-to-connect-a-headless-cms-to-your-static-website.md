@@ -12,3 +12,4 @@ twittertitle = "How to connect a headless CMS to your static website"
 webp_version = "/v1566079940/web-dev-skills_l3olnx.jpg"
 
 +++
+Forestry is a headless CMS that commits. This means that 
