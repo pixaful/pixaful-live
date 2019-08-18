@@ -48,8 +48,3 @@ If you truly want to challenge yourself as a front-end developer, go back to bas
 FYI: I do use a grid system on this website, but I only began using them once I got the basics down. My preferred grid is purecss because it is incredibly light. That being said, I am planning on dropping it very soon for grid css.
 
 I am selecting PHP as my backend language because I work with Wordpress and magento quite a bit so it only makes sense. It may not be the coolest language but since V7 it has grown up quite a bit and is well worth checking out. Then I would pick Python or Ruby.
-
-
-
-
-
